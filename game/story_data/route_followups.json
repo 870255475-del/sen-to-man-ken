@@ -1,0 +1,1234 @@
+{
+  "schema_version": 1,
+  "title": "其余八角色后续路线设计",
+  "status": "design_pending_prose_not_native",
+  "status_display": "设计／待正文 · 未运行",
+  "role_order": [
+    "claude",
+    "minimax",
+    "kimi",
+    "gemini",
+    "qwen",
+    "glm",
+    "opencode",
+    "zcode"
+  ],
+  "scope_note": "八人独立八章、三关系后续、IF与周目事件是未来制作设计；短隐藏不抵完整线，5–6小时未实测。",
+  "relationship_rules": [
+    "章七玩家明确选love/wait/friend，章八兑现；日常分数不覆盖拒绝。",
+    "等待可撤回、友人完整收束，拒恋爱/低分/退出不自动触发坏IF。",
+    "回看缺失前史采用中性文字；各章只回声实际选过的动作与道具。"
+  ],
+  "family_plan": "成年人30岁相识；自愿婚育队列为32岁婚礼、33岁开始育儿、37岁孩子4岁；不要孩子也有完整后日谈，成人亲密与儿童日常分开。",
+  "production_note": "CG先正文锚点、真实资产和动作差分、再沿句切换与native验收。当前0新图、0解锁；动作差分不抵独立福利事件，婚礼/家庭不占220额度。",
+  "roles": [
+    {
+      "id": "claude",
+      "name": "Claude",
+      "route_title": "没有批注的那一页",
+      "status": "design_pending_prose_not_native",
+      "private_wish": "挑一本俗气的侦探小说，去河边自己读完，允许自己猜错凶手，也明确选择何时不工作。",
+      "core_misconception": "怕私人喜好显得不严谨、怕拒绝伤人，把真实喜恶藏进客气措辞。",
+      "chapters": [
+        {
+          "number": 1,
+          "title": "不合格的邀请函",
+          "outline": "她退回含糊邀请，却自己写好欢迎句。你们拿同一张纸确认实际时刻，约会不靠猜脸色成立。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 2,
+          "title": "书页里的余温",
+          "outline": "整理湿书时，她留下那本廉价侦探书。选摊开晾页或先找干布，两条动作都通向发现她想读它。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 3,
+          "title": "使用额度已满",
+          "outline": "书室预约收住过量校对。她腾出的第一小时却仍想回信；你陪她走到河边，她终于读到第二章。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 4,
+          "title": "这一句我不同意",
+          "outline": "宣传夸大须撤回。你们分担告知损失，她自己说明哪句不同意，回来后仍能吃饭、继续猜故事。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 5,
+          "title": "请别替我道歉",
+          "outline": "你抢先替她圆场，她失去表达机会。争执后她取消当晚共读，明确告诉你想要听众，非发言替身。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 6,
+          "title": "修改的是约定",
+          "outline": "公共纠错短场完成。私下你们重新约定谁来开口、何时暂停；她第一次承认书猜错了，也不更改答案。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 7,
+          "title": "想靠近，是真的",
+          "outline": "无批注纸上只有她的邀请。三种回答当面给；她不追问友人为何不爱，也不把等待写成承诺书。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 8,
+          "title": "留下整页的空白",
+          "outline": "读书会散场后，恋人到河边共读；等待各留自己的座位；友人轮流主持，都保留她的私人阅读日。",
+          "status": "design_pending_prose"
+        }
+      ],
+      "continuity_rules": "章二的动作要延续：摊页分支她扶住书脊，干布分支她同你按住纸边，章六共读时各提一次实际发生的笨拙。私人小说既不借来校对，也不被公众评分。章八友人桌上不放恋人手写便签；等待版她可以先读完，不必把结尾搁到你决定关系以后。",
+      "endings": {
+        "love": {
+          "title": "恋人",
+          "outline": "读书会散场，两人到河边共读；她主动合书说今天想先看你，私人阅读日依旧属于她。",
+          "status": "planned_not_written_not_integrated"
+        },
+        "wait": {
+          "title": "等待",
+          "outline": "各留自己的座位，下一次见面可以重新确认；她先读完小说，不为等待暂停自己的生活。",
+          "status": "planned_not_written_not_integrated"
+        },
+        "friend": {
+          "title": "友人",
+          "outline": "两人轮流主持读书会、互荐烂书，不放恋人便签，也不以友谊要求亲密。",
+          "status": "planned_not_written_not_integrated"
+        }
+      },
+      "bad_if": {
+        "outline": "玩家主动把她的私人批注公开当笑料，她明确终止合作；拒绝恋爱不是触发原因。",
+        "entry": "explicit_independent_opt_in",
+        "automatic_on_rejection": false,
+        "status": "planned_not_written_not_integrated"
+      },
+      "regret_if": {
+        "outline": "双方为了永远不争执只说客气话，终于各搬书架，失去一起猜结尾的日子。",
+        "entry": "explicit_independent_opt_in",
+        "automatic_on_rejection": false,
+        "existing_short_if_candidate": null,
+        "status": "route_expansion_planned; referenced_short_if_is_separate"
+      },
+      "afterstory": {
+        "love": "读错结尾的雨夜，两人先笑自己的推理，再做晚饭。",
+        "wait": "各自读完后交换不同答案，约见面先问是否方便。",
+        "friend": "共同办一次烂书推荐会，不以情侣身份宣传。",
+        "family_optional": "自愿育儿时先问孩子哪里难受，再翻指南；不要孩子也有完整生活。",
+        "status": "planned_not_written_not_integrated",
+        "family_requires_explicit_opt_in": true
+      },
+      "ng2": {
+        "outline": "由她先推荐那本俗小说，玩家可接或说明不想读，不以选择新增关系分。",
+        "status": "planned_not_written_not_integrated",
+        "optional": true
+      },
+      "ng3": {
+        "outline": "任选一晚互写荒唐结局，她现场接梗，不预知玩家答案。",
+        "status": "planned_not_written_not_integrated",
+        "optional": true
+      },
+      "cg_needs": [
+        {
+          "id_proposed": "followup_claude_01",
+          "chapter_proposed": 2,
+          "title": "晾湿书",
+          "relationship_gate_proposed": "any",
+          "body_expression_variants": [
+            "扶书脊、另一手摊开湿页，认真低头",
+            "同镜位与玩家手一起按干布，抬眼忍笑"
+          ],
+          "status": "planned_not_generated_not_integrated",
+          "exact_say_anchor": "pending_actual_prose; 先写正文再定位原句",
+          "continuity": "同组固定身份/衣装/背景/镜位；玩家不画立绘，旧PNG保留",
+          "unlock": "none; 无实图无沿句接入不登记解锁"
+        },
+        {
+          "id_proposed": "followup_claude_02",
+          "chapter_proposed": 5,
+          "title": "取消共读",
+          "relationship_gate_proposed": "any",
+          "body_expression_variants": [
+            "手指压住书签，嘴角收起，侧身停顿",
+            "同镜位收回书签、抱书离桌，难过但明确"
+          ],
+          "status": "planned_not_generated_not_integrated",
+          "exact_say_anchor": "pending_actual_prose; 先写正文再定位原句",
+          "continuity": "同组固定身份/衣装/背景/镜位；玩家不画立绘，旧PNG保留",
+          "unlock": "none; 无实图无沿句接入不登记解锁"
+        },
+        {
+          "id_proposed": "followup_claude_03",
+          "chapter_proposed": 8,
+          "title": "河边合书",
+          "relationship_gate_proposed": "love",
+          "body_expression_variants": [
+            "膝上摊书、身体朝玩家微倾，松弛笑",
+            "同镜位合书伸手靠近，得到明确回应"
+          ],
+          "status": "planned_not_generated_not_integrated",
+          "exact_say_anchor": "pending_actual_prose; 先写正文再定位原句",
+          "continuity": "同组固定身份/衣装/背景/镜位；玩家不画立绘，旧PNG保留",
+          "unlock": "none; 无实图无沿句接入不登记解锁"
+        }
+      ]
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "route_title": "镜头之外也有人爱你",
+      "status": "design_pending_prose_not_native",
+      "private_wish": "去芦苇边听风、吃会融化的冷点心；设备没电也照原计划过下午，笑声不必录下来。",
+      "core_misconception": "把持续输出与被喜欢混在一起，认为没拍到的生活就不值得留下。",
+      "chapters": [
+        {
+          "number": 1,
+          "title": "第一条，别演",
+          "outline": "不合格开场被剪成笑话，你自愿当助手。她另外留下未开拍的一分钟，先问你要不要坐到旁边。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 2,
+          "title": "同一个声音",
+          "outline": "录音游戏后她不肯留真笑声。玩家选关设备散步或坐着吃点心；她自己决定把录音键松开。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 3,
+          "title": "镜头盖丢了",
+          "outline": "你找回镜头盖，不重演错过的晚霞。她从追补画面转向陪你走完路，记住点心店其实提前关门。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 4,
+          "title": "预告比生活漂亮",
+          "outline": "宣传片把不确定的活动剪成保证。她亲手删去夸大的镜头、告知预约者，未把损失转给你处理。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 5,
+          "title": "这一条不用保留",
+          "outline": "你保存未经同意的失态片段，她暂停合作。删文件和核对副本只是修复行动，不能逼她马上原谅。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 6,
+          "title": "让声音慢下来",
+          "outline": "重新拍摄先征询每位参与者。私下她也说清哪些画面不拍，并主动问你愿不愿再陪她吃那份点心。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 7,
+          "title": "关机后的告白",
+          "outline": "设备收进包，她用自己的声音告白。三回答当场成立，无录音当证据，等待不要求定期上交心情。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 8,
+          "title": "片尾没有彩排",
+          "outline": "放映完成后去芦苇边。恋人牵手、等待并坐、友人互讲漏拍趣事，风景不因缺录像变得无效。",
+          "status": "design_pending_prose"
+        }
+      ],
+      "continuity_rules": "章二散步或吃点心分别留下脚上沾泥、纸杯黏手的回声，不能两者都写。章五暂停合作后，她照常给自己买点心，不靠哭倒求玩家来修复。到章七，设备的关机由她按下；玩家明确选择友人时，章八仍由她邀请出门，而非让她忙着替新情侣拍摄。",
+      "endings": {
+        "love": {
+          "title": "恋人",
+          "outline": "放映结束后设备收进包，两人到芦苇边牵手，她按自己的时刻关机而不放弃创作。",
+          "status": "planned_not_written_not_integrated"
+        },
+        "wait": {
+          "title": "等待",
+          "outline": "关设备并坐，讲清下次可重新确认或取消，不要求每天录心情证明在等。",
+          "status": "planned_not_written_not_integrated"
+        },
+        "friend": {
+          "title": "友人",
+          "outline": "互讲漏拍的趣事、继续尊重拍摄意愿，不把她安排成替新情侣拍照的工作人员。",
+          "status": "planned_not_written_not_integrated"
+        }
+      },
+      "bad_if": {
+        "outline": "玩家主动继续备份并上传她已明确撤回的片段，她断开合作；不以拒爱判坏。",
+        "entry": "explicit_independent_opt_in",
+        "automatic_on_rejection": false,
+        "status": "planned_not_written_not_integrated"
+      },
+      "regret_if": {
+        "outline": "总为完美作品推迟私约，作品上映后，属于两人的季节已经过去。",
+        "entry": "explicit_independent_opt_in",
+        "automatic_on_rejection": false,
+        "existing_short_if_candidate": null,
+        "status": "route_expansion_planned; referenced_short_if_is_separate"
+      },
+      "afterstory": {
+        "love": "轮流安排拍摄日与不拍摄日，再去买一次融化的点心。",
+        "wait": "各拍自己的作品，约见面不设镜头验收。",
+        "friend": "一起放映新作，散场后各讲一件没有拍到的趣事。",
+        "family_optional": "自愿育儿先问是否记录孩子，不把生日变成摆拍；成人亲密与儿童日常分镜。",
+        "status": "planned_not_written_not_integrated",
+        "family_requires_explicit_opt_in": true
+      },
+      "ng2": {
+        "outline": "她先递镜头盖作为休息暗号，玩家可理解后选择一段不录的时间。",
+        "status": "planned_not_written_not_integrated",
+        "optional": true
+      },
+      "ng3": {
+        "outline": "玩家选讲一个不录制的故事，她只在现场接话，第一周目无须先知道它。",
+        "status": "planned_not_written_not_integrated",
+        "optional": true
+      },
+      "cg_needs": [
+        {
+          "id_proposed": "followup_minimax_01",
+          "chapter_proposed": 2,
+          "title": "关机伸懒腰",
+          "relationship_gate_proposed": "any",
+          "body_expression_variants": [
+            "一手按关机键，一手撑椅，略犹豫",
+            "同镜位双臂伸展、肩膀放松，真笑不录"
+          ],
+          "status": "planned_not_generated_not_integrated",
+          "exact_say_anchor": "pending_actual_prose; 先写正文再定位原句",
+          "continuity": "同组固定身份/衣装/背景/镜位；玩家不画立绘，旧PNG保留",
+          "unlock": "none; 无实图无沿句接入不登记解锁"
+        },
+        {
+          "id_proposed": "followup_minimax_02",
+          "chapter_proposed": 8,
+          "title": "芦苇边融化的点心",
+          "relationship_gate_proposed": "any",
+          "body_expression_variants": [
+            "端纸杯低头看融化点心、指尖失手",
+            "同镜位举黏手指朝玩家示意，相视笑"
+          ],
+          "status": "planned_not_generated_not_integrated",
+          "exact_say_anchor": "pending_actual_prose; 先写正文再定位原句",
+          "continuity": "同组固定身份/衣装/背景/镜位；玩家不画立绘，旧PNG保留",
+          "unlock": "none; 无实图无沿句接入不登记解锁"
+        },
+        {
+          "id_proposed": "followup_minimax_03",
+          "chapter_proposed": 7,
+          "title": "包合上后的告白",
+          "relationship_gate_proposed": "love",
+          "body_expression_variants": [
+            "设备包已合，双手压包带、坐直认真",
+            "同镜位松手面向玩家、身体微前倾"
+          ],
+          "status": "planned_not_generated_not_integrated",
+          "exact_say_anchor": "pending_actual_prose; 先写正文再定位原句",
+          "continuity": "同组固定身份/衣装/背景/镜位；玩家不画立绘，旧PNG保留",
+          "unlock": "none; 无实图无沿句接入不登记解锁"
+        }
+      ]
+    },
+    {
+      "id": "kimi",
+      "name": "Kimi",
+      "route_title": "不把你缩成一句摘要",
+      "status": "design_pending_prose_not_native",
+      "private_wish": "亲脚走到共通篇提过的桥后，做一本个人小地图，标记自己真正走过、可以不公开的路。",
+      "core_misconception": "只替别人保存过去，觉得新愿望必须有完整记录才敢开始；怕归还记录就是背叛。",
+      "chapters": [
+        {
+          "number": 1,
+          "title": "借书期限到祭典",
+          "outline": "接过缺页旧册，先确认借还边界。缺页由愿意提供的旧索引补足，不变成窥探玩家隐私的魔法。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 2,
+          "title": "你的那一页",
+          "outline": "她记得口味，仍把共处写成工作日志。你选带她亲走桥后或留路线给她独行，两者都让她新增自己的圈。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 3,
+          "title": "不要只读摘要",
+          "outline": "精简旧争执伤了真实意思。她征询当事人补讲，回来却保留自己曾判断错的那页，不替过去修成漂亮版本。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 4,
+          "title": "遗忘不是背叛",
+          "outline": "愿签被取回，她舍不得地图失去这一点。她有时间难过，最终归还原纸；个人散步仍能继续。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 5,
+          "title": "这是我的记录",
+          "outline": "你擅自替她续写私人愿签。她合上册子，争执落在那条其实想一个人走的路，非所有回忆都要共有。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 6,
+          "title": "一起翻过这一页",
+          "outline": "返还旧档、无主条目仅作目录。她自己画一张休息日地图，选邀请你同行一段，剩下的路线不代填。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 7,
+          "title": "今天发生的新故事",
+          "outline": "月下她放下册子，主动邀约。恋人、等待、友人当面回答，与你是否记住她每个偏好无关。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 8,
+          "title": "书签朝向明天",
+          "outline": "恋人各写半页旅行册，等待允许不同步旅行，友人交换可公开路线；她三种关系都能独自越过桥。",
+          "status": "design_pending_prose"
+        }
+      ],
+      "continuity_rules": "章二同行分支由她亲手画桥后第一圈；独行分支她隔天带回自己的路线，玩家不能替她描述已经看过的景。章五愿签追回后交给她保管，后章只在她主动拿出时出现。友人结尾交换的是可公开路线，恋人册也不默认共享一切，她仍有独走的页。",
+      "endings": {
+        "love": {
+          "title": "恋人",
+          "outline": "两人各写半页不公开旅行册，也各有不共享的页；共同的新路不取消独走。",
+          "status": "planned_not_written_not_integrated"
+        },
+        "wait": {
+          "title": "等待",
+          "outline": "两人的旅行可不同步，分别寄近况、下次再确认，不用停止新故事等答案。",
+          "status": "planned_not_written_not_integrated"
+        },
+        "friend": {
+          "title": "友人",
+          "outline": "交换可公开的路线、一起越过桥，不用开放全部私人册子证明友情。",
+          "status": "planned_not_written_not_integrated"
+        }
+      },
+      "bad_if": {
+        "outline": "玩家主动复印已撤回的私人愿签并展示，她收回信任；章五一次失误不自动跳坏。",
+        "entry": "explicit_independent_opt_in",
+        "automatic_on_rejection": false,
+        "status": "planned_not_written_not_integrated"
+      },
+      "regret_if": {
+        "outline": "一直补旧目录，再没一起走出门；多年后共享册只剩不同的新地址。",
+        "entry": "explicit_independent_opt_in",
+        "automatic_on_rejection": false,
+        "existing_short_if_candidate": null,
+        "status": "route_expansion_planned; referenced_short_if_is_separate"
+      },
+      "afterstory": {
+        "love": "迷路后先吃饭，再改两人各自的地图。",
+        "wait": "各走半段新路线，想分享时再问，不催对方同步。",
+        "friend": "互荐公开路标，自己决定哪些页留在家里。",
+        "family_optional": "自愿育儿时让四岁孩子用歪线画自己的路，不替孩子修成准确地图。",
+        "status": "planned_not_written_not_integrated",
+        "family_requires_explicit_opt_in": true
+      },
+      "ng2": {
+        "outline": "她邀请玩家标出一处不想公开的空白，不公布也不会失去篇章进度。",
+        "status": "planned_not_written_not_integrated",
+        "optional": true
+      },
+      "ng3": {
+        "outline": "两人各带一张新路线走半段，再决定是否分享；新增角度不改旧事实。",
+        "status": "planned_not_written_not_integrated",
+        "optional": true
+      },
+      "cg_needs": [
+        {
+          "id_proposed": "followup_kimi_01",
+          "chapter_proposed": 2,
+          "title": "展开地图加新圈",
+          "relationship_gate_proposed": "any",
+          "body_expression_variants": [
+            "双手展开旧图、目光认路",
+            "同镜位一手压纸一手亲画新圈、轻笑"
+          ],
+          "status": "planned_not_generated_not_integrated",
+          "exact_say_anchor": "pending_actual_prose; 先写正文再定位原句",
+          "continuity": "同组固定身份/衣装/背景/镜位；玩家不画立绘，旧PNG保留",
+          "unlock": "none; 无实图无沿句接入不登记解锁"
+        },
+        {
+          "id_proposed": "followup_kimi_02",
+          "chapter_proposed": 5,
+          "title": "合册保留空白",
+          "relationship_gate_proposed": "any",
+          "body_expression_variants": [
+            "手按未完成愿签，身体微退",
+            "同镜位合册留一角空白，抬眼直说不愿"
+          ],
+          "status": "planned_not_generated_not_integrated",
+          "exact_say_anchor": "pending_actual_prose; 先写正文再定位原句",
+          "continuity": "同组固定身份/衣装/背景/镜位；玩家不画立绘，旧PNG保留",
+          "unlock": "none; 无实图无沿句接入不登记解锁"
+        },
+        {
+          "id_proposed": "followup_kimi_03",
+          "chapter_proposed": 8,
+          "title": "桥后主动邀请",
+          "relationship_gate_proposed": "love",
+          "body_expression_variants": [
+            "桥后停步握书签、回头看玩家",
+            "同镜位伸出空手、侧身留同行位置"
+          ],
+          "status": "planned_not_generated_not_integrated",
+          "exact_say_anchor": "pending_actual_prose; 先写正文再定位原句",
+          "continuity": "同组固定身份/衣装/背景/镜位；玩家不画立绘，旧PNG保留",
+          "unlock": "none; 无实图无沿句接入不登记解锁"
+        }
+      ]
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "route_title": "哈基米与星图的另一面",
+      "status": "design_pending_prose_not_native",
+      "private_wish": "办一次白天野餐，学做并不擅长的咸点心，让认真做过的东西被认真尝一口。",
+      "core_misconception": "把聪明和脱线当成要选出的两个版本，怕不完美的自己不配被认真回应。",
+      "chapters": [
+        {
+          "number": 1,
+          "title": "猫耳找到了北极星",
+          "outline": "指错星后一起核对共通篇的屋顶图。你不替她圆成正确，她自己挪开挡视线的盆，再确认方向。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 2,
+          "title": "哈基米的观测日记",
+          "outline": "白日查风、夜里领路；她把野餐日也画进图。选帮拌点心或帮挑坐处，后面保留实际做过的事。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 3,
+          "title": "二选一不等于两个人",
+          "outline": "她用相反计划迎合聪明与脱线两种评价。你们把两张纸摊开，只留下她真的想去的那一天。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 4,
+          "title": "天气不能许愿",
+          "outline": "误报让活动落空，她逐处说明并退改安排。私下点心做得太咸，你也说真话，她另倒水，不硬撑笑脸。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 5,
+          "title": "你喜欢的是哪边",
+          "outline": "她只在你面前装稳重，连喜欢的怪故事也停讲。争执由一次偷偷背答案的观测开始，她承认怕被敷衍。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 6,
+          "title": "一起看不确定的天",
+          "outline": "雨天备选写清可撤回，公共段收束。她仍做一盒点心，邀请你到屋檐下吃，没好天气也能见面。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 7,
+          "title": "双星只有一片天空",
+          "outline": "她在观测台明确告白，不自拆两人。玩家爱／等待／友人回应，无需选择聪明版才配得到亲密。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 8,
+          "title": "明天也可能下雨",
+          "outline": "各关系兑现野餐。恋人共伞，等待保留各自改期权，友人互带水和点心，偶尔失误仍有完整日子。",
+          "status": "design_pending_prose"
+        }
+      ],
+      "continuity_rules": "点心由她自己想学做，不用来讨全镇认可。章二帮拌的玩家会在章六认出同一种咸味；帮选位置的玩家知道哪片屋檐遮雨，不能突然夸自己做过面糊。章五她也可先笑一个怪联想，再说伤心，不把认真等同面无表情。三关系用各自的伞与座位演出。",
+      "endings": {
+        "love": {
+          "title": "恋人",
+          "outline": "继续观测也会失误，雨天共伞、晴天野餐，两人带水吃点心，不校准成完美女友。",
+          "status": "planned_not_written_not_integrated"
+        },
+        "wait": {
+          "title": "等待",
+          "outline": "各有自己的伞和改期权，不能以等天气或等回答无限延期自己的日子。",
+          "status": "planned_not_written_not_integrated"
+        },
+        "friend": {
+          "title": "友人",
+          "outline": "互带水和点心、各自持伞领路，可靠与脱线都可被正常回应，没有恋人待遇强求。",
+          "status": "planned_not_written_not_integrated"
+        }
+      },
+      "bad_if": {
+        "outline": "玩家主动把她声明不确定的预报伪造成保证，扩活动让她独担指责，她退出合作。",
+        "entry": "explicit_independent_opt_in",
+        "automatic_on_rejection": false,
+        "status": "planned_not_written_not_integrated"
+      },
+      "regret_if": {
+        "outline": "总等最好的自己才肯见面，终于在不同城市观察同一片天。",
+        "entry": "explicit_independent_opt_in",
+        "automatic_on_rejection": false,
+        "existing_short_if_candidate": null,
+        "status": "route_expansion_planned; referenced_short_if_is_separate"
+      },
+      "afterstory": {
+        "love": "雨天烤失败点心，晴天再办野餐，一起说明真实口味。",
+        "wait": "计划可改，各自尝试新配方，见面仍能直说太咸。",
+        "friend": "朋友野餐一人带点心一人带水，走错共同调整。",
+        "family_optional": "自愿育儿时带四岁孩子找屋顶方向，父母可以说不知道，不培养完美神童。",
+        "status": "planned_not_written_not_integrated",
+        "family_requires_explicit_opt_in": true
+      },
+      "ng2": {
+        "outline": "她先讲一则不需要懂的怪故事，不拿懂梗测试亲密资格。",
+        "status": "planned_not_written_not_integrated",
+        "optional": true
+      },
+      "ng3": {
+        "outline": "可由玩家领路、她自由观察，走错共同改，不让女主读出玩家往周目记忆。",
+        "status": "planned_not_written_not_integrated",
+        "optional": true
+      },
+      "cg_needs": [
+        {
+          "id_proposed": "followup_gemini_01",
+          "chapter_proposed": 1,
+          "title": "盆边转图",
+          "relationship_gate_proposed": "any",
+          "body_expression_variants": [
+            "站定看屋顶图，耳朵微偏疑惑",
+            "同镜位把图转正、抬头确认方向，笑自己"
+          ],
+          "status": "planned_not_generated_not_integrated",
+          "exact_say_anchor": "pending_actual_prose; 先写正文再定位原句",
+          "continuity": "同组固定身份/衣装/背景/镜位；玩家不画立绘，旧PNG保留",
+          "unlock": "none; 无实图无沿句接入不登记解锁"
+        },
+        {
+          "id_proposed": "followup_gemini_02",
+          "chapter_proposed": 6,
+          "title": "屋檐下尝咸点心",
+          "relationship_gate_proposed": "any",
+          "body_expression_variants": [
+            "小口尝点心、忍着咸味",
+            "同镜位伸手找水、朝玩家示意，认真又好笑"
+          ],
+          "status": "planned_not_generated_not_integrated",
+          "exact_say_anchor": "pending_actual_prose; 先写正文再定位原句",
+          "continuity": "同组固定身份/衣装/背景/镜位；玩家不画立绘，旧PNG保留",
+          "unlock": "none; 无实图无沿句接入不登记解锁"
+        },
+        {
+          "id_proposed": "followup_gemini_03",
+          "chapter_proposed": 8,
+          "title": "野餐的伞与座位",
+          "relationship_gate_proposed": "any",
+          "body_expression_variants": [
+            "依关系各持伞或恋人共伞，身体松弛",
+            "同镜位留出相应座位、递水；友人不切情侣贴近"
+          ],
+          "status": "planned_not_generated_not_integrated",
+          "exact_say_anchor": "pending_actual_prose; 先写正文再定位原句",
+          "continuity": "同组固定身份/衣装/背景/镜位；玩家不画立绘，旧PNG保留",
+          "unlock": "none; 无实图无沿句接入不登记解锁"
+        }
+      ]
+    },
+    {
+      "id": "qwen",
+      "name": "Qwen",
+      "route_title": "千问之后，问我一句",
+      "status": "design_pending_prose_not_native",
+      "private_wish": "留出不用润色的午后，自己买船票看新茶铺、挑一把私人扇；敢给自己的愿望明确时刻。",
+      "core_misconception": "把账清楚当作关系清楚，总用客气、优化建议与下次补偿代替真正的邀请。",
+      "chapters": [
+        {
+          "number": 1,
+          "title": "大肥鱼欠的半枚",
+          "outline": "合作理清代班账，不代DS抹掉承诺。她自己结账，另留一格个人安排，你知道她明日其实有休息。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 2,
+          "title": "一千种说法",
+          "outline": "题字时她越改越客气。茶会你选等她说完或直接问想去哪，她终于说要看河边茶铺，不当摊主考察。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 3,
+          "title": "谁都能带回家的笔",
+          "outline": "教小摊使用工具。玩家不替她包办培训，她课后买了喜欢的扇子，却习惯塞回公共物料篮。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 4,
+          "title": "免费的代价",
+          "outline": "她拒绝再救场，分工落实而非一句夸能干。你陪她领回个人扇子，她的半天不再被顺手排入轮班。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 5,
+          "title": "这次轮到我问",
+          "outline": "她邀你坐船，你把路线改成顺便送货。她停下出票，指出她只想同你出门；双方重新说清愿不愿赴约。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 6,
+          "title": "留下自己的题款",
+          "outline": "告示署名短段结束。私下她写的是自己的船票日期，你承认先前回避，按实际选择归还或重排那次时刻。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 7,
+          "title": "不必修辞的喜欢",
+          "outline": "她用普通句子告白。爱／等待／友人优先，账和劳动不能购买回应，她也无需再写更好措辞。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 8,
+          "title": "扇后不再藏着话",
+          "outline": "恋人同坐一班船，等待各选行程后再问，友人并行逛茶铺；三条均写她不再拿扇遮住自己的要求。",
+          "status": "design_pending_prose"
+        }
+      ],
+      "continuity_rules": "入口按真实前史处理账：若共通相关承诺已兑现，不再向玩家追收旧债，而从本章新代班的清点开始。章二等她说或主动问的选择，影响她后来怎样先开口，不替代明确回答。船票须由实际赴约日期生成；错过那班就退改，不把旧票忽然写成可随时使用。",
+      "endings": {
+        "love": {
+          "title": "恋人",
+          "outline": "同坐自己明确选择的一班船，收扇主动伸手；共同休息有具体时刻，不用欠条维系。",
+          "status": "planned_not_written_not_integrated"
+        },
+        "wait": {
+          "title": "等待",
+          "outline": "各选行程，见面前再问是否方便，可改期撤回，不把等待记成欠债。",
+          "status": "planned_not_written_not_integrated"
+        },
+        "friend": {
+          "title": "友人",
+          "outline": "并行逛茶铺，彼此能提要求和说不，友情不成为免费救场单。",
+          "status": "planned_not_written_not_integrated"
+        }
+      },
+      "bad_if": {
+        "outline": "玩家主动截下她已拒绝的救场单，谎称她答应，她暂停共同经营；不因缺钱羞辱人。",
+        "entry": "explicit_independent_opt_in",
+        "automatic_on_rejection": false,
+        "status": "planned_not_written_not_integrated"
+      },
+      "regret_if": {
+        "outline": "双方确有感情却总把下次记账，最后合册、各过新生活；参考独立短IF bad_qwen_closed_tab。",
+        "entry": "explicit_independent_opt_in",
+        "automatic_on_rejection": false,
+        "existing_short_if_candidate": "bad_qwen_closed_tab",
+        "status": "route_expansion_planned; referenced_short_if_is_separate"
+      },
+      "afterstory": {
+        "love": "去新茶铺后敢说不好喝，轮流安排两人的私人出行。",
+        "wait": "各有半天，真正愿意见时再约，不把未约时间拿来赔偿。",
+        "friend": "互荐茶铺与私人扇，拒绝代班仍有朋友位置。",
+        "family_optional": "自愿育儿时保留双方独处与家庭轮值，不让母性吞掉她的个人要求。",
+        "status": "planned_not_written_not_integrated",
+        "family_requires_explicit_opt_in": true
+      },
+      "ng2": {
+        "outline": "她先递未题款的私人扇，不默认玩家以前已经拿过同一把。",
+        "status": "planned_not_written_not_integrated",
+        "optional": true
+      },
+      "ng3": {
+        "outline": "玩家提出自己的半天，她可改期；明确拒绝仍优先于日常分数。",
+        "status": "planned_not_written_not_integrated",
+        "optional": true
+      },
+      "cg_needs": [
+        {
+          "id_proposed": "followup_qwen_01",
+          "chapter_proposed": 4,
+          "title": "领回私人扇",
+          "relationship_gate_proposed": "any",
+          "body_expression_variants": [
+            "从公共物料篮取扇、皱眉认出",
+            "同镜位合扇收回袖边，神情踏实"
+          ],
+          "status": "planned_not_generated_not_integrated",
+          "exact_say_anchor": "pending_actual_prose; 先写正文再定位原句",
+          "continuity": "同组固定身份/衣装/背景/镜位；玩家不画立绘，旧PNG保留",
+          "unlock": "none; 无实图无沿句接入不登记解锁"
+        },
+        {
+          "id_proposed": "followup_qwen_02",
+          "chapter_proposed": 5,
+          "title": "没上船的站台",
+          "relationship_gate_proposed": "any",
+          "body_expression_variants": [
+            "持有真实日期船票、手停在出票口",
+            "同镜位把票收回、面向玩家说清愿望"
+          ],
+          "status": "planned_not_generated_not_integrated",
+          "exact_say_anchor": "pending_actual_prose; 先写正文再定位原句",
+          "continuity": "同组固定身份/衣装/背景/镜位；玩家不画立绘，旧PNG保留",
+          "unlock": "none; 无实图无沿句接入不登记解锁"
+        },
+        {
+          "id_proposed": "followup_qwen_03",
+          "chapter_proposed": 8,
+          "title": "船边收扇伸手",
+          "relationship_gate_proposed": "love",
+          "body_expression_variants": [
+            "扇轻挡脸、另一手扶船边",
+            "同镜位收扇露笑，掌心向上邀请玩家"
+          ],
+          "status": "planned_not_generated_not_integrated",
+          "exact_say_anchor": "pending_actual_prose; 先写正文再定位原句",
+          "continuity": "同组固定身份/衣装/背景/镜位；玩家不画立绘，旧PNG保留",
+          "unlock": "none; 无实图无沿句接入不登记解锁"
+        }
+      ]
+    },
+    {
+      "id": "glm",
+      "name": "GLM",
+      "route_title": "小狐娘的最后一篮鸡蛋",
+      "status": "design_pending_prose_not_native",
+      "private_wish": "种自己选的私人花、下班去草坡吃酸杏，让人看花和看她，而不是只找赠品。",
+      "core_misconception": "把照顾包装为优惠，怕没有奖励就无人赴约，总把私人见面办成活动。",
+      "chapters": [
+        {
+          "number": 1,
+          "title": "最后一篮赠品",
+          "outline": "沿原赠品框架用纸夹与点心篮布置。她发现客人先问赠品，自己喜欢的那株花没人看，开始另留私人花种。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 2,
+          "title": "狐狸不负责诱拐",
+          "outline": "送材料时给迟到的人留饭。玩家选帮提篮或回去取布，后续按实物回应，不把她体贴当隐藏合同。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 3,
+          "title": "大肥鱼又降价了",
+          "outline": "竞赛弄乱排班，她主动停掉。收摊时问你今天看见哪朵花，而不是谁便宜，露出想被专程探望的愿望。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 4,
+          "title": "送完以后呢",
+          "outline": "赠品耗尽，你们真实收好盆与纸夹。她第一次不等客人再来，自己尝完那份点心，学着享受不出售的日子。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 5,
+          "title": "不是用户回访",
+          "outline": "她取消约会，怕你只是礼貌。你也曾把邀约当领物资，冲突说清后，由她决定重新邀请的具体时刻。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 6,
+          "title": "不给赠品的邀请",
+          "outline": "小庭院按活动开放，伙伴只短时到访。主要私场是她给自己的花浇水，邀请你去草坡坐，不需要展示成绩。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 7,
+          "title": "只为见你",
+          "outline": "玩家赴纯私人约，她明确表白。三答案同样完整，友人不被赶出庭院，等待不配发每日回访任务。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 8,
+          "title": "一张没有优惠的票",
+          "outline": "恋人保留普通票也保留私人花种；等待各自来时问是否方便；友人把她请出庭院做客，生活不止招待。",
+          "status": "design_pending_prose"
+        }
+      ],
+      "continuity_rules": "玩家提篮或取布在章四留下不同收摊动作，不能让未提过篮的人替她认旧篮结。GLM的新花种要经她亲手种下，再在结尾看见小芽；不是好感达到阈值就突然满园开花。约会前她可以提出今晚不接客，友人版也能把活动移到自己家，不以开门营业作为友情交换。",
+      "endings": {
+        "love": {
+          "title": "恋人",
+          "outline": "下班吃普通晚饭、看私人花种发芽，来见她不需要赠品，两人各有选择。",
+          "status": "planned_not_written_not_integrated"
+        },
+        "wait": {
+          "title": "等待",
+          "outline": "各自来时先问方便，允许她关门享受自己的草坡下午，不派每日回访任务。",
+          "status": "planned_not_written_not_integrated"
+        },
+        "friend": {
+          "title": "友人",
+          "outline": "把她请出庭院做客，她不用持续招待来兑换友情，普通票仍可正常购买。",
+          "status": "planned_not_written_not_integrated"
+        }
+      },
+      "bad_if": {
+        "outline": "玩家主动复印限额赠品券，让她独背损失，她收回合作；不因不领福利或拒爱判坏。",
+        "entry": "explicit_independent_opt_in",
+        "automatic_on_rejection": false,
+        "status": "planned_not_written_not_integrated"
+      },
+      "regret_if": {
+        "outline": "每次见面都办成活动，双方疲惫后分别关好自己的门。",
+        "entry": "explicit_independent_opt_in",
+        "automatic_on_rejection": false,
+        "existing_short_if_candidate": null,
+        "status": "route_expansion_planned; referenced_short_if_is_separate"
+      },
+      "afterstory": {
+        "love": "不卖门票的两人野餐，搬家时一起讨论带哪盆私人花。",
+        "wait": "她自己挑点心与打烊时刻，见面不是承诺全天营业。",
+        "friend": "去玩家准备的客场野餐，GLM照自己的口味带东西。",
+        "family_optional": "自愿育儿时四岁孩子养一盆会蔫的花，共同照料，不赠奖品换亲近。",
+        "status": "planned_not_written_not_integrated",
+        "family_requires_explicit_opt_in": true
+      },
+      "ng2": {
+        "outline": "她先报打烊时刻，玩家能为只见她留出真实时间。",
+        "status": "planned_not_written_not_integrated",
+        "optional": true
+      },
+      "ng3": {
+        "outline": "可选到玩家准备的野餐，女主自己挑点心，不自动接受赠品交换。",
+        "status": "planned_not_written_not_integrated",
+        "optional": true
+      },
+      "cg_needs": [
+        {
+          "id_proposed": "followup_glm_01",
+          "chapter_proposed": 1,
+          "title": "私种与公盆分开",
+          "relationship_gate_proposed": "any",
+          "body_expression_variants": [
+            "一手护私人花种、一手指公共盆",
+            "同镜位放种子进袖袋、轻抬尾巴，明确保留"
+          ],
+          "status": "planned_not_generated_not_integrated",
+          "exact_say_anchor": "pending_actual_prose; 先写正文再定位原句",
+          "continuity": "同组固定身份/衣装/背景/镜位；玩家不画立绘，旧PNG保留",
+          "unlock": "none; 无实图无沿句接入不登记解锁"
+        },
+        {
+          "id_proposed": "followup_glm_02",
+          "chapter_proposed": 4,
+          "title": "收篮后酸杏",
+          "relationship_gate_proposed": "any",
+          "body_expression_variants": [
+            "抱篮坐下咬酸杏，眼睛眯起",
+            "同镜位掰小半递给玩家、另一手找水"
+          ],
+          "status": "planned_not_generated_not_integrated",
+          "exact_say_anchor": "pending_actual_prose; 先写正文再定位原句",
+          "continuity": "同组固定身份/衣装/背景/镜位；玩家不画立绘，旧PNG保留",
+          "unlock": "none; 无实图无沿句接入不登记解锁"
+        },
+        {
+          "id_proposed": "followup_glm_03",
+          "chapter_proposed": 8,
+          "title": "草坡牵手或并坐",
+          "relationship_gate_proposed": "any",
+          "body_expression_variants": [
+            "草坡坐稳留空位，尾巴不挡玩家",
+            "同镜位依明确关系牵手或各坐，亲密版仅love"
+          ],
+          "status": "planned_not_generated_not_integrated",
+          "exact_say_anchor": "pending_actual_prose; 先写正文再定位原句",
+          "continuity": "同组固定身份/衣装/背景/镜位；玩家不画立绘，旧PNG保留",
+          "unlock": "none; 无实图无沿句接入不登记解锁"
+        }
+      ]
+    },
+    {
+      "id": "opencode",
+      "name": "OpenCode",
+      "route_title": "修得好的灯，问得到的人",
+      "status": "design_pending_prose_not_native",
+      "private_wish": "坐早班车去南镇吃不边修边吃的早餐，河边什么也不做，能在没故障时主动邀人。",
+      "core_misconception": "以完成工作抵消漏约，把解决故障视为唯一相处理由，没有问题就不敢见人。",
+      "chapters": [
+        {
+          "number": 1,
+          "title": "欢迎复现问题",
+          "outline": "按原框架修坏灯，接住共通篇手推车与留凳的真实日常。她问你坐不坐，不把玩家只当取件人。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 2,
+          "title": "工具借你，人呢",
+          "outline": "工具外借后她没有借口见你。玩家选散步或请她到摊前吃早餐，闲聊不以新故障打断。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 3,
+          "title": "不是换个脑袋",
+          "outline": "伙伴方案分清贡献，她不用事事兜底。自己的早点计划因迟到错过，玩家知道她不是只有工作喜欢。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 4,
+          "title": "坏掉的是排班",
+          "outline": "熬夜漏约不能用完工抵销。两人谈清等候多久、谁先通知，她亲手把私人车次写进日历。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 5,
+          "title": "没问题也可以来吗",
+          "outline": "你为见她故意弄坏灯，她明确拒绝。归还物件并承认动机后，是否再见由她自己答，不制造依赖。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 6,
+          "title": "一起修，轮流休",
+          "outline": "沿暴雨后维护框架，只用短段发布说明和交接；不复制DS抢险高潮。私人主场是她准时合工具箱出门。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 7,
+          "title": "邀请不需要故障号",
+          "outline": "她邀请你去南镇，只想吃早餐和陪你。爱／等待／友人明说，拒绝仍可平等借工具，不以维修费惩罚。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 8,
+          "title": "工具箱合上以后",
+          "outline": "恋人共坐早班车，等待各自到河桥后再确认，友人约早餐不制造恋爱回报；她三条都有独立休息日。",
+          "status": "design_pending_prose"
+        }
+      ],
+      "continuity_rules": "章二散步与早餐保留不同地点、剩下食物和回程时刻。坏灯只在真实修完后移出工作台，章五新破坏必须单独承认，不能伪装成旧故障。她的往返票属于她，同行玩家另买或换自己的票；结尾送她离站者留在自己的目的地，不让两人无故一起回镇。",
+      "endings": {
+        "love": {
+          "title": "恋人",
+          "outline": "自己准时合工具箱、和玩家同坐早班车，休息和共同晚饭与工作并存。",
+          "status": "planned_not_written_not_integrated"
+        },
+        "wait": {
+          "title": "等待",
+          "outline": "分别到河桥后再确认，保留彼此行程，等待不把她变成备用维修员。",
+          "status": "planned_not_written_not_integrated"
+        },
+        "friend": {
+          "title": "友人",
+          "outline": "约早餐、平等借工具、留常来坐坐的位置，不制造坏灯换恋爱回报。",
+          "status": "planned_not_written_not_integrated"
+        }
+      },
+      "bad_if": {
+        "outline": "玩家主动不停弄坏东西阻止她离镇，她停止借用关系，仍按自己的计划离开。",
+        "entry": "explicit_independent_opt_in",
+        "automatic_on_rejection": false,
+        "status": "planned_not_written_not_integrated"
+      },
+      "regret_if": {
+        "outline": "把约会总排在最后一个故障之后，后来她独自坐车去自己的日子。",
+        "entry": "explicit_independent_opt_in",
+        "automatic_on_rejection": false,
+        "existing_short_if_candidate": null,
+        "status": "route_expansion_planned; referenced_short_if_is_separate"
+      },
+      "afterstory": {
+        "love": "错过早班就去另一家早点，各赴工作后共享晚饭。",
+        "wait": "各自到镇再确认早餐时间，不因一方没来接下补偿工单。",
+        "friend": "工具照常借还，朋友见面直接邀，不绕故障编号。",
+        "family_optional": "自愿育儿先抱困倦孩子，玩具晚一点修，两位家长都轮流休息。",
+        "status": "planned_not_written_not_integrated",
+        "family_requires_explicit_opt_in": true
+      },
+      "ng2": {
+        "outline": "玩家可先备一张没有维修请求的地图，女主可以自己选择走法。",
+        "status": "planned_not_written_not_integrated",
+        "optional": true
+      },
+      "ng3": {
+        "outline": "她选一天去玩家的客场，途中不临时开工，探望有自己的完整目的。",
+        "status": "planned_not_written_not_integrated",
+        "optional": true
+      },
+      "cg_needs": [
+        {
+          "id_proposed": "followup_opencode_01",
+          "chapter_proposed": 6,
+          "title": "还尺合箱",
+          "relationship_gate_proposed": "any",
+          "body_expression_variants": [
+            "尺放回箱内、双手试搭扣",
+            "同镜位放下未完的小修，拿点心纸盒准备走"
+          ],
+          "status": "planned_not_generated_not_integrated",
+          "exact_say_anchor": "pending_actual_prose; 先写正文再定位原句",
+          "continuity": "同组固定身份/衣装/背景/镜位；玩家不画立绘，旧PNG保留",
+          "unlock": "none; 无实图无沿句接入不登记解锁"
+        },
+        {
+          "id_proposed": "followup_opencode_02",
+          "chapter_proposed": 8,
+          "title": "车站探望",
+          "relationship_gate_proposed": "any",
+          "body_expression_variants": [
+            "双手护纸盒与自己的往返票，看见玩家",
+            "同镜位走近举盒给玩家看，笑意放松"
+          ],
+          "status": "planned_not_generated_not_integrated",
+          "exact_say_anchor": "pending_actual_prose; 先写正文再定位原句",
+          "continuity": "同组固定身份/衣装/背景/镜位；玩家不画立绘，旧PNG保留",
+          "unlock": "none; 无实图无沿句接入不登记解锁"
+        },
+        {
+          "id_proposed": "followup_opencode_03",
+          "chapter_proposed": 8,
+          "title": "河桥移肩",
+          "relationship_gate_proposed": "love",
+          "body_expression_variants": [
+            "石阶掰豆饼、肩膀仍有距离",
+            "同镜位依明确同意移肩靠近、手握半块饼"
+          ],
+          "status": "planned_not_generated_not_integrated",
+          "exact_say_anchor": "pending_actual_prose; 先写正文再定位原句",
+          "continuity": "同组固定身份/衣装/背景/镜位；玩家不画立绘，旧PNG保留",
+          "unlock": "none; 无实图无沿句接入不登记解锁"
+        }
+      ]
+    },
+    {
+      "id": "zcode",
+      "name": "ZCode",
+      "route_title": "写给自己的第一封信",
+      "status": "design_pending_prose_not_native",
+      "private_wish": "挑一个自己的新信箱，去陌生街住几天，写署名邀请亲手送给想见的人。",
+      "core_misconception": "能送到别人请求，却把自己的回应一再斟酌推迟，误把回执当成心意已经说清。",
+      "chapters": [
+        {
+          "number": 1,
+          "title": "未署名的快件",
+          "outline": "需当事人许可才能核实难投邀请。保留共通篇Claude包裹与她另写饭桌便条的区别，不合并成同一封。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 2,
+          "title": "顺路送你回家",
+          "outline": "跑信路，若收过便条按其时刻赴约，否则她重新约。你选先走短路或陪最后一趟，按真路线说顺路。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 3,
+          "title": "回执不等于回应",
+          "outline": "无人回复的信让她焦虑。你不能替收件人答，她学着完成投递后等，回到自己的房间选信箱颜色。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 4,
+          "title": "撤回的那封信",
+          "outline": "归还撤回的信，承担失去一趟工作。不公开别人的故事自证，晚饭照常吃，私人生活没有被工作取消。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 5,
+          "title": "这一次不是代寄",
+          "outline": "你把她未落款的私人信投出，她生气。追回、归还、告知已读范围，不能靠换新信纸抹掉后果。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 6,
+          "title": "自己的名字",
+          "outline": "她自己写完邀请并署名，邀你看准备短住的街。你承认先前越界，按她意愿等或协助，目的地由她决定。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 7,
+          "title": "当面收下的心意",
+          "outline": "她当面递信，玩家当面回答爱／等待／友人。等待不要求她替你保存所有选项，友人仍收到清楚地址。",
+          "status": "design_pending_prose"
+        },
+        {
+          "number": 8,
+          "title": "明信片写着我们",
+          "outline": "恋人共同寄旅行卡，等待分别寄近况、可终止等候，友人互写见闻；署名与新住处在三条都成立。",
+          "status": "design_pending_prose"
+        }
+      ],
+      "continuity_rules": "工作包裹、私人便条、未寄愿信在道具表里分三项，不因她都是送信人而互换。章五追回是否已被读过要明确，不能说收回就从未发生。章六她挑的新信箱先装到自己的门边，章八卡片才有实在去处；玩家的地址可以不共享，她仍有自己的新住处与朋友。",
+      "endings": {
+        "love": {
+          "title": "恋人",
+          "outline": "当面说明收件时刻，共同寄旅行卡；新地址真实存在，不默认共享全部信件。",
+          "status": "planned_not_written_not_integrated"
+        },
+        "wait": {
+          "title": "等待",
+          "outline": "分别寄近况、按自己的节奏，可终止等候，不替玩家保存所有可能的答案。",
+          "status": "planned_not_written_not_integrated"
+        },
+        "friend": {
+          "title": "友人",
+          "outline": "互写见闻、讲清地址，邀请可以正常拒绝，她仍有自己的新住处与朋友。",
+          "status": "planned_not_written_not_integrated"
+        }
+      },
+      "bad_if": {
+        "outline": "玩家主动冒用她署名继续发信，她收回钥匙与合作；友人回答不是坏结局门槛。",
+        "entry": "explicit_independent_opt_in",
+        "automatic_on_rejection": false,
+        "status": "planned_not_written_not_integrated"
+      },
+      "regret_if": {
+        "outline": "曾双向靠近，明确回答来迟、信被退回；多年后各有生活，认真重读而不强迫复合。",
+        "entry": "explicit_independent_opt_in",
+        "automatic_on_rejection": false,
+        "existing_short_if_candidate": "bad_zcode_return_letter",
+        "status": "route_expansion_planned; referenced_short_if_is_separate"
+      },
+      "afterstory": {
+        "love": "装新信箱失败后重选位置，隔城往来讲清回信节奏。",
+        "wait": "分别寄当天近况，不催马上答复，改地址主动说明。",
+        "friend": "互换公开游记，不把私人便条混成工作包裹。",
+        "family_optional": "自愿育儿让四岁孩子自己口述明信片，父母不代写漂亮心意。",
+        "status": "planned_not_written_not_integrated",
+        "family_requires_explicit_opt_in": true
+      },
+      "ng2": {
+        "outline": "她先读自己的邀请再递信，玩家可听完再回复，没有读心或前周目强记忆。",
+        "status": "planned_not_written_not_integrated",
+        "optional": true
+      },
+      "ng3": {
+        "outline": "玩家回送只写当天的卡，收件人可以不立即回应，彼此仍有自己行程。",
+        "status": "planned_not_written_not_integrated",
+        "optional": true
+      },
+      "cg_needs": [
+        {
+          "id_proposed": "followup_zcode_01",
+          "chapter_proposed": 1,
+          "title": "便条与工作包裹",
+          "relationship_gate_proposed": "any",
+          "body_expression_variants": [
+            "分两处放私人便条与Claude工作包裹",
+            "同镜位拿自己的便条面向玩家，认真示意"
+          ],
+          "status": "planned_not_generated_not_integrated",
+          "exact_say_anchor": "pending_actual_prose; 先写正文再定位原句",
+          "continuity": "同组固定身份/衣装/背景/镜位；玩家不画立绘，旧PNG保留",
+          "unlock": "none; 无实图无沿句接入不登记解锁"
+        },
+        {
+          "id_proposed": "followup_zcode_02",
+          "chapter_proposed": 6,
+          "title": "重新亲手署名",
+          "relationship_gate_proposed": "any",
+          "body_expression_variants": [
+            "手按追回纸页、视线停在空署名处",
+            "同镜位持笔写自己的名字，抬眼说清邀请"
+          ],
+          "status": "planned_not_generated_not_integrated",
+          "exact_say_anchor": "pending_actual_prose; 先写正文再定位原句",
+          "continuity": "同组固定身份/衣装/背景/镜位；玩家不画立绘，旧PNG保留",
+          "unlock": "none; 无实图无沿句接入不登记解锁"
+        },
+        {
+          "id_proposed": "followup_zcode_03",
+          "chapter_proposed": 8,
+          "title": "门前卡与信箱",
+          "relationship_gate_proposed": "any",
+          "body_expression_variants": [
+            "站自己门边举起旅行卡，笑着确认",
+            "同镜位亲手将卡放入信箱，另一手护箱门"
+          ],
+          "status": "planned_not_generated_not_integrated",
+          "exact_say_anchor": "pending_actual_prose; 先写正文再定位原句",
+          "continuity": "同组固定身份/衣装/背景/镜位；玩家不画立绘，旧PNG保留",
+          "unlock": "none; 无实图无沿句接入不登记解锁"
+        }
+      ]
+    }
+  ]
+}

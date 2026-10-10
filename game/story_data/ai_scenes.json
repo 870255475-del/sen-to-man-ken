@@ -1,0 +1,512 @@
+{
+  "version": 1,
+  "roles": {
+    "deepseek": [
+      {
+        "event": "eat_first",
+        "label": "一起先吃",
+        "stage": 0,
+        "aliases": [
+          "先吃",
+          "先开饭",
+          "一起吃饭",
+          "盛一碗",
+          "先吃白饭"
+        ],
+        "context": "你们先坐到桌边吃白米饭，收灯的事还没做。她把盛得最高的那碗推给你。",
+        "fact": "你们决定先一起吃饭。",
+        "branch": "rice",
+        "requires": null
+      },
+      {
+        "event": "lanterns_first",
+        "label": "一起先收灯",
+        "stage": 0,
+        "aliases": [
+          "先收灯",
+          "先把灯收",
+          "先修灯",
+          "收灯再吃"
+        ],
+        "context": "你们先把院里的灯收好，她把最后一盏递给你，饭还在锅里保温。",
+        "fact": "你们决定先把灯收好。",
+        "branch": "work",
+        "requires": null
+      },
+      {
+        "event": "collect_lanterns",
+        "label": "吃完一起收灯",
+        "stage": 1,
+        "aliases": [
+          "收灯",
+          "把灯收",
+          "修灯",
+          "收好灯"
+        ],
+        "context": "饭吃完了，你们一起收好了灯。她特地没把你的那盏放远。",
+        "fact": "饭后你们一起收好了灯。",
+        "branch": null,
+        "requires": "rice"
+      },
+      {
+        "event": "share_rice",
+        "label": "收灯后一起吃饭",
+        "stage": 1,
+        "aliases": [
+          "吃饭",
+          "盛饭",
+          "一碗白饭",
+          "一起吃",
+          "开饭"
+        ],
+        "context": "灯已经收好，你们才开饭。她嘴上嫌你太认真，却早留了两碗热饭。",
+        "fact": "收灯后你们一起吃了热饭。",
+        "branch": null,
+        "requires": "work"
+      },
+      {
+        "event": "rest_together",
+        "label": "约好一起休息",
+        "stage": 2,
+        "aliases": [
+          "一起休息",
+          "约好休息",
+          "一起歇",
+          "一起坐",
+          "坐会",
+          "歇一会"
+        ],
+        "context": "饭和灯都安排好了，你们约好下次也一起歇会儿。不要声称完整角色线已经通关。",
+        "fact": "你们约好一起休息。",
+        "branch": null,
+        "requires": null
+      }
+    ],
+    "gpt": [
+      {
+        "event": "sketch_notice",
+        "label": "一起画小告示",
+        "stage": 0,
+        "aliases": [
+          "画告示",
+          "画小告示",
+          "画海报"
+        ],
+        "context": "一起画小告示，仍在同一个日常场景。",
+        "fact": "一起画小告示。",
+        "branch": null,
+        "requires": null
+      },
+      {
+        "event": "share_tea",
+        "label": "放下清单喝茶",
+        "stage": 1,
+        "aliases": [
+          "喝茶",
+          "泡茶"
+        ],
+        "context": "放下清单喝茶，仍在同一个日常场景。",
+        "fact": "放下清单喝茶。",
+        "branch": null,
+        "requires": null
+      },
+      {
+        "event": "ask_self_portrait",
+        "label": "问她自己想画什么",
+        "stage": 2,
+        "aliases": [
+          "想画什么",
+          "自己想画"
+        ],
+        "context": "问她自己想画什么，仍在同一个日常场景。",
+        "fact": "问她自己想画什么。",
+        "branch": null,
+        "requires": null
+      }
+    ],
+    "claude": [
+      {
+        "event": "repair_book",
+        "label": "帮忙修好旧书",
+        "stage": 0,
+        "aliases": [
+          "修书",
+          "修好旧书",
+          "修旧书"
+        ],
+        "context": "帮忙修好旧书，仍在同一个日常场景。",
+        "fact": "帮忙修好旧书。",
+        "branch": null,
+        "requires": null
+      },
+      {
+        "event": "listen_reason",
+        "label": "听她把理由说完",
+        "stage": 1,
+        "aliases": [
+          "理由说完",
+          "听你说完",
+          "把理由说完"
+        ],
+        "context": "听她把理由说完，仍在同一个日常场景。",
+        "fact": "听她把理由说完。",
+        "branch": null,
+        "requires": null
+      },
+      {
+        "event": "invite_reading",
+        "label": "邀请她下班后读书",
+        "stage": 2,
+        "aliases": [
+          "一起读书",
+          "下班后读书"
+        ],
+        "context": "邀请她下班后读书，仍在同一个日常场景。",
+        "fact": "邀请她下班后读书。",
+        "branch": null,
+        "requires": null
+      }
+    ],
+    "grok": [
+      {
+        "event": "open_stall",
+        "label": "帮她摆好夜市摊",
+        "stage": 0,
+        "aliases": [
+          "摆摊",
+          "摆好夜市摊",
+          "开摊"
+        ],
+        "context": "帮她摆好夜市摊，仍在同一个日常场景。",
+        "fact": "帮她摆好夜市摊。",
+        "branch": null,
+        "requires": null
+      },
+      {
+        "event": "close_stall",
+        "label": "散场后陪她收灯",
+        "stage": 1,
+        "aliases": [
+          "收摊",
+          "散场后陪",
+          "陪你收灯"
+        ],
+        "context": "散场后陪她收灯，仍在同一个日常场景。",
+        "fact": "散场后陪她收灯。",
+        "branch": null,
+        "requires": null
+      },
+      {
+        "event": "invite_nighttalk",
+        "label": "认真约一次夜谈",
+        "stage": 2,
+        "aliases": [
+          "夜谈",
+          "晚上聊",
+          "夜里聊"
+        ],
+        "context": "认真约一次夜谈，仍在同一个日常场景。",
+        "fact": "认真约一次夜谈。",
+        "branch": null,
+        "requires": null
+      }
+    ],
+    "minimax": [
+      {
+        "event": "sort_storyboard",
+        "label": "一起整理分镜",
+        "stage": 0,
+        "aliases": [
+          "整理分镜",
+          "整理镜头"
+        ],
+        "context": "一起整理分镜，仍在同一个日常场景。",
+        "fact": "一起整理分镜。",
+        "branch": null,
+        "requires": null
+      },
+      {
+        "event": "ask_recording",
+        "label": "问她愿不愿意录音",
+        "stage": 1,
+        "aliases": [
+          "愿意录音",
+          "愿不愿意录音",
+          "可以录音"
+        ],
+        "context": "问她愿不愿意录音，仍在同一个日常场景。",
+        "fact": "问她愿不愿意录音。",
+        "branch": null,
+        "requires": null
+      },
+      {
+        "event": "walk_off_camera",
+        "label": "关机后一起散步",
+        "stage": 2,
+        "aliases": [
+          "关机后",
+          "放下相机散步"
+        ],
+        "context": "关机后一起散步，仍在同一个日常场景。",
+        "fact": "关机后一起散步。",
+        "branch": null,
+        "requires": null
+      }
+    ],
+    "kimi": [
+      {
+        "event": "sort_index",
+        "label": "整理公开目录",
+        "stage": 0,
+        "aliases": [
+          "整理目录",
+          "整理公开目录"
+        ],
+        "context": "整理公开目录，仍在同一个日常场景。",
+        "fact": "整理公开目录。",
+        "branch": null,
+        "requires": null
+      },
+      {
+        "event": "return_wish",
+        "label": "归还取回的愿签",
+        "stage": 1,
+        "aliases": [
+          "归还愿签",
+          "归还取回",
+          "还回愿签"
+        ],
+        "context": "归还取回的愿签，仍在同一个日常场景。",
+        "fact": "归还取回的愿签。",
+        "branch": null,
+        "requires": null
+      },
+      {
+        "event": "write_new_page",
+        "label": "请她写新的一页",
+        "stage": 2,
+        "aliases": [
+          "写新的一页",
+          "写新页"
+        ],
+        "context": "请她写新的一页，仍在同一个日常场景。",
+        "fact": "请她写新的一页。",
+        "branch": null,
+        "requires": null
+      }
+    ],
+    "gemini": [
+      {
+        "event": "verify_starmap",
+        "label": "一起核对星图",
+        "stage": 0,
+        "aliases": [
+          "核对星图",
+          "检查星图"
+        ],
+        "context": "一起核对星图，仍在同一个日常场景。",
+        "fact": "一起核对星图。",
+        "branch": null,
+        "requires": null
+      },
+      {
+        "event": "bring_umbrella",
+        "label": "准备备用雨伞",
+        "stage": 1,
+        "aliases": [
+          "备用雨伞",
+          "带雨伞",
+          "带把伞"
+        ],
+        "context": "准备备用雨伞，仍在同一个日常场景。",
+        "fact": "准备备用雨伞。",
+        "branch": null,
+        "requires": null
+      },
+      {
+        "event": "invite_stargazing",
+        "label": "约下一次观测",
+        "stage": 2,
+        "aliases": [
+          "下一次观测",
+          "一起看星",
+          "下次观星"
+        ],
+        "context": "约下一次观测，仍在同一个日常场景。",
+        "fact": "约下一次观测。",
+        "branch": null,
+        "requires": null
+      }
+    ],
+    "qwen": [
+      {
+        "event": "repay_help",
+        "label": "补还代班的人情",
+        "stage": 0,
+        "aliases": [
+          "还人情",
+          "补还代班",
+          "代班的人情"
+        ],
+        "context": "补还代班的人情，仍在同一个日常场景。",
+        "fact": "补还代班的人情。",
+        "branch": null,
+        "requires": null
+      },
+      {
+        "event": "teach_lettering",
+        "label": "一起教摊主题字",
+        "stage": 1,
+        "aliases": [
+          "教摊主",
+          "教题字",
+          "一起题字"
+        ],
+        "context": "一起教摊主题字，仍在同一个日常场景。",
+        "fact": "一起教摊主题字。",
+        "branch": null,
+        "requires": null
+      },
+      {
+        "event": "hear_request",
+        "label": "听她提出要求",
+        "stage": 2,
+        "aliases": [
+          "提出要求",
+          "听你的要求"
+        ],
+        "context": "听她提出要求，仍在同一个日常场景。",
+        "fact": "听她提出要求。",
+        "branch": null,
+        "requires": null
+      }
+    ],
+    "glm": [
+      {
+        "event": "prepare_garden",
+        "label": "帮忙布置小庭院",
+        "stage": 0,
+        "aliases": [
+          "布置庭院",
+          "布置小庭院"
+        ],
+        "context": "帮忙布置小庭院，仍在同一个日常场景。",
+        "fact": "帮忙布置小庭院。",
+        "branch": null,
+        "requires": null
+      },
+      {
+        "event": "stay_after_gifts",
+        "label": "赠品送完也陪收摊",
+        "stage": 1,
+        "aliases": [
+          "赠品送完",
+          "陪你收摊"
+        ],
+        "context": "赠品送完也陪收摊，仍在同一个日常场景。",
+        "fact": "赠品送完也陪收摊。",
+        "branch": null,
+        "requires": null
+      },
+      {
+        "event": "visit_no_gifts",
+        "label": "赴无赠品的约",
+        "stage": 2,
+        "aliases": [
+          "没有赠品也来",
+          "无赠品的约",
+          "不送东西也来"
+        ],
+        "context": "赴无赠品的约，仍在同一个日常场景。",
+        "fact": "赴无赠品的约。",
+        "branch": null,
+        "requires": null
+      }
+    ],
+    "opencode": [
+      {
+        "event": "learn_repair",
+        "label": "学会修灯的步骤",
+        "stage": 0,
+        "aliases": [
+          "学修灯",
+          "修灯的步骤"
+        ],
+        "context": "学会修灯的步骤，仍在同一个日常场景。",
+        "fact": "学会修灯的步骤。",
+        "branch": null,
+        "requires": null
+      },
+      {
+        "event": "share_shift",
+        "label": "安排轮流休息",
+        "stage": 1,
+        "aliases": [
+          "轮流休息",
+          "替你一班"
+        ],
+        "context": "安排轮流休息，仍在同一个日常场景。",
+        "fact": "安排轮流休息。",
+        "branch": null,
+        "requires": null
+      },
+      {
+        "event": "visit_no_fault",
+        "label": "没故障也来坐坐",
+        "stage": 2,
+        "aliases": [
+          "没故障也来",
+          "没坏也来",
+          "没故障也来坐坐"
+        ],
+        "context": "没故障也来坐坐，仍在同一个日常场景。",
+        "fact": "没故障也来坐坐。",
+        "branch": null,
+        "requires": null
+      }
+    ],
+    "zcode": [
+      {
+        "event": "ask_permission",
+        "label": "询问信件的许可",
+        "stage": 0,
+        "aliases": [
+          "信件的许可",
+          "可以看信吗",
+          "允许看信"
+        ],
+        "context": "询问信件的许可，仍在同一个日常场景。",
+        "fact": "询问信件的许可。",
+        "branch": null,
+        "requires": null
+      },
+      {
+        "event": "walk_mail_route",
+        "label": "一起走完送信路",
+        "stage": 1,
+        "aliases": [
+          "一起送信",
+          "送信路"
+        ],
+        "context": "一起走完送信路，仍在同一个日常场景。",
+        "fact": "一起走完送信路。",
+        "branch": null,
+        "requires": null
+      },
+      {
+        "event": "accept_letter",
+        "label": "当面收下她的信",
+        "stage": 2,
+        "aliases": [
+          "收下你的信",
+          "收下她的信",
+          "当面收下"
+        ],
+        "context": "当面收下她的信，仍在同一个日常场景。",
+        "fact": "当面收下她的信。",
+        "branch": null,
+        "requires": null
+      }
+    ]
+  }
+}

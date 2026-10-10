@@ -1,0 +1,186 @@
+{
+  "schema": 1,
+  "endings": [
+    {
+      "id": "secret_01",
+      "kind": "secret",
+      "role": "deepseek",
+      "title": "米饭搭档，收桌也算",
+      "label": "secret_01",
+      "gate": "trace",
+      "note": "独立平行短篇 · 具体前史在本篇成立；个人长线仍按框架继续制作"
+    },
+    {
+      "id": "secret_02",
+      "kind": "secret",
+      "role": "gpt",
+      "title": "龙的休业日",
+      "label": "secret_02",
+      "gate": "trace",
+      "note": "独立平行短篇 · 具体前史在本篇成立；个人长线仍按框架继续制作"
+    },
+    {
+      "id": "secret_03",
+      "kind": "secret",
+      "role": "claude",
+      "title": "闭馆后的最后一页",
+      "label": "secret_03",
+      "gate": "trace",
+      "note": "独立平行短篇 · 具体前史在本篇成立；个人长线仍按框架继续制作"
+    },
+    {
+      "id": "secret_04",
+      "kind": "secret",
+      "role": "grok",
+      "title": "最后一页，不加演",
+      "label": "secret_04",
+      "gate": "trace",
+      "note": "独立平行短篇 · 具体前史在本篇成立；个人长线仍按框架继续制作"
+    },
+    {
+      "id": "secret_05",
+      "kind": "secret",
+      "role": "minimax",
+      "title": "空音轨的那一分钟",
+      "label": "secret_05",
+      "gate": "trace",
+      "note": "独立平行短篇 · 具体前史在本篇成立；个人长线仍按框架继续制作"
+    },
+    {
+      "id": "secret_06",
+      "kind": "secret",
+      "role": "kimi",
+      "title": "误投明年的书签",
+      "label": "secret_06",
+      "gate": "trace",
+      "note": "独立平行短篇 · 具体前史在本篇成立；个人长线仍按框架继续制作"
+    },
+    {
+      "id": "secret_07",
+      "kind": "secret",
+      "role": "gemini",
+      "title": "星星没来，你来了",
+      "label": "secret_07",
+      "gate": "trace",
+      "note": "独立平行短篇 · 具体前史在本篇成立；个人长线仍按框架继续制作"
+    },
+    {
+      "id": "secret_08",
+      "kind": "secret",
+      "role": "qwen",
+      "title": "欠条空下的一栏",
+      "label": "secret_08",
+      "gate": "trace",
+      "note": "独立平行短篇 · 具体前史在本篇成立；个人长线仍按框架继续制作"
+    },
+    {
+      "id": "secret_09",
+      "kind": "secret",
+      "role": "glm",
+      "title": "今天没有赠品",
+      "label": "secret_09",
+      "gate": "trace",
+      "note": "独立平行短篇 · 具体前史在本篇成立；个人长线仍按框架继续制作"
+    },
+    {
+      "id": "secret_10",
+      "kind": "secret",
+      "role": "opencode",
+      "title": "工具箱留在镇里",
+      "label": "secret_10",
+      "gate": "trace",
+      "note": "独立平行短篇 · 具体前史在本篇成立；个人长线仍按框架继续制作"
+    },
+    {
+      "id": "secret_11",
+      "kind": "secret",
+      "role": "zcode",
+      "title": "无地址，已送达",
+      "label": "secret_11",
+      "gate": "trace",
+      "note": "独立平行短篇 · 具体前史在本篇成立；个人长线仍按框架继续制作"
+    },
+    {
+      "id": "secret_12",
+      "kind": "secret",
+      "role": "deepseek",
+      "title": "下一张照片也留着",
+      "label": "secret_12",
+      "gate": "ds_third",
+      "note": "第三周目 · 七十三岁的回想"
+    },
+    {
+      "id": "secret_13",
+      "kind": "secret",
+      "role": "deepseek",
+      "title": "小满来到这一天",
+      "label": "secret_13",
+      "gate": "ds_family",
+      "note": "完全非性化的家庭后日谈 · 三十三岁母亲与新生小满"
+    },
+    {
+      "id": "bad_common_overpromise",
+      "kind": "bad",
+      "role": "common",
+      "title": "承诺过后的空长凳",
+      "label": "bad_common_overpromise",
+      "gate": "common",
+      "note": "主动选择的独立虐心/遗憾IF；不改主线结局"
+    },
+    {
+      "id": "bad_ds_last_bowl",
+      "kind": "bad",
+      "role": "deepseek",
+      "title": "最后一只碗",
+      "label": "bad_ds_last_bowl",
+      "gate": "any_ds",
+      "note": "独立IF · 伴侣因虚构疾病离世，孤独终老；无医学指引"
+    },
+    {
+      "id": "bad_ds_other_hand",
+      "kind": "bad",
+      "role": "deepseek",
+      "title": "她握住的另一只手",
+      "label": "bad_ds_other_hand",
+      "gate": "any_ds",
+      "note": "独立IF · 成年角色的感情背叛与分手；完整穿着，无性行为"
+    },
+    {
+      "id": "bad_gpt_empty_frame",
+      "kind": "bad",
+      "role": "gpt",
+      "title": "空画框",
+      "label": "bad_gpt_empty_frame",
+      "gate": "trace",
+      "note": "主动选择的独立虐心/遗憾IF；不改主线结局"
+    },
+    {
+      "id": "bad_grok_echo",
+      "kind": "bad",
+      "role": "grok",
+      "title": "回声比认错先到",
+      "label": "bad_grok_echo",
+      "gate": "trace",
+      "note": "主动选择的独立虐心/遗憾IF；不改主线结局"
+    },
+    {
+      "id": "bad_qwen_closed_tab",
+      "kind": "bad",
+      "role": "qwen",
+      "title": "合上的约会册",
+      "label": "bad_qwen_closed_tab",
+      "gate": "trace",
+      "note": "主动选择的独立虐心/遗憾IF；不改主线结局"
+    },
+    {
+      "id": "bad_zcode_return_letter",
+      "kind": "bad",
+      "role": "zcode",
+      "title": "迟来的信已经读完",
+      "label": "bad_zcode_return_letter",
+      "gate": "trace",
+      "note": "主动选择的独立虐心/遗憾IF；不改主线结局"
+    }
+  ],
+  "scope": "13 authored short hidden IF + 7 independent bad/regret IF; not 11 complete long routes"
+}

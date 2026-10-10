@@ -1,0 +1,1523 @@
+{
+  "scope": "Required private assets are not included. Hashes identify the local working source; they grant no redistribution permission.",
+  "assets": [
+    {
+      "path": "images/claude_window.png",
+      "bytes": 2480120,
+      "sha256": "3163af47909b434f1d8eeee312ba8031fedc3b434e354a49b8bca6eb35881a02",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/deepseek_moon.png",
+      "bytes": 2328204,
+      "sha256": "803e152a439999c6739ac7ba97a2726ddd298a6e200f91001079b14b723208f6",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/deepseek_shrine.png",
+      "bytes": 1965915,
+      "sha256": "ceb567fb5cd24a5af94f3d7d2df1afd1d2768a89a560e044dfa124065bce274f",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/gpt_candle.png",
+      "bytes": 2320167,
+      "sha256": "5a19356bc9138e469d181076de96763863278a7a2dfc30752e39c3af8380f076",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/grok_festival.png",
+      "bytes": 2445519,
+      "sha256": "d83545ee96ba431cd7a1be1eb6456d7860e145b437a637fc8d6941ff1590edb2",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/lantern_hug.png",
+      "bytes": 2482452,
+      "sha256": "131fdd70edfa37464f0ad68875db7eda849a0d11e6cf3b9073c810d395166680",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/backgrounds_v20/c01_arrival.png",
+      "bytes": 2705876,
+      "sha256": "500767f1723629df0203f82c7c30078ea74fb3155df4125a684ec63559876caf",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/backgrounds_v20/c01_bg02.png",
+      "bytes": 2567223,
+      "sha256": "e5d1592c085442cdec1117ce0eb80be75b5eecfcae067636aa0cdb5d9526da37",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/backgrounds_v20/c01_bg03.png",
+      "bytes": 2548603,
+      "sha256": "e55eda101afcde5017a23bc709efa0ba8e569c74c4eaf67fb65ea05f4c35e403",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/backgrounds_v20/c01_bg04.png",
+      "bytes": 2890539,
+      "sha256": "d3d328fa7388b6abeb81a61ec8592313a4b8286f6500009840304e77123e918e",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/backgrounds_v20/c01_bg06.png",
+      "bytes": 2241714,
+      "sha256": "42cd4b30f65f62aad669fb63b17dbb3f62892343a04ca992d08fc19371560b5a",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/backgrounds_v20/c01_bg07.png",
+      "bytes": 2417264,
+      "sha256": "15abf9c5b7bf33df894038c3ea4703b404cb75a3396204f7d7868a03b40b754f",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/backgrounds_v20/c01_bg08.png",
+      "bytes": 2150810,
+      "sha256": "d4419097db91972f001f7545acc1f73dd499d8ac0d6533b938118477bb5f19d9",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/backgrounds_v20/c01_bg09.png",
+      "bytes": 2478330,
+      "sha256": "631600d0dc17ab09b5a5e6a492aa0e734b90fe5296f39d23a2ecc4bc59b2d4e1",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/backgrounds_v20/c01_bg10.png",
+      "bytes": 2273447,
+      "sha256": "bc85aa4c3a0ce7e022a7aabef063731a9dd0ddb8f32f652f9ebb64eb55bc4957",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/backgrounds_v20/c01_bg11.png",
+      "bytes": 2462614,
+      "sha256": "206ce97aeccc7e45b4f61f39e95fc7b440cfa7291a3c6a11cfab628183f998a7",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/backgrounds_v20/c01_bg12.png",
+      "bytes": 2299017,
+      "sha256": "b1c5dc482196deebad6916935964e22340fe5e3f9e3fd1e15dff6cd36426198c",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/backgrounds_v20/c01_bg13.png",
+      "bytes": 2288572,
+      "sha256": "a9ef182fd7dfafba7d57463f99100725df8b0640eb0f0db8b3a8f9eadbfa067b",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/backgrounds_v20/c01_bg15.png",
+      "bytes": 2400494,
+      "sha256": "3b5a696c0941aa306e3cee7888271f94d1d8230659e4281ed58a3fc23588574e",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/backgrounds_v20/c01_bg16.png",
+      "bytes": 2527000,
+      "sha256": "01bd5fd67ab565f6b0ff4021609ce17c2cb1ff0dd3bdf58646252f5c5ffe2cb3",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/backgrounds_v20/c01_bg19.png",
+      "bytes": 2495120,
+      "sha256": "161b548c038741e5a8ea65bcf825c59ba267acf9ac02693b82557fd60bbff955",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/backgrounds_v20/c01_bg21.png",
+      "bytes": 2376211,
+      "sha256": "c16de796f1d694202b490b13f3d5dfe012b41115eaf905c9d6250087494fcd08",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/backgrounds_v20/c01_bg22.png",
+      "bytes": 2480053,
+      "sha256": "b075758b27aee63e5dd9fbd7db77360e91f3360c2da380626e0eb3f11af03afd",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/backgrounds_v20/c01_bg24.png",
+      "bytes": 2262620,
+      "sha256": "265447b9a04437b255f2166720780104b70f859563820d8835bb48792263437c",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/backgrounds_v20/c01_bg25.png",
+      "bytes": 2522989,
+      "sha256": "94df9fb579c19beae5cd74c268440f55b7ac47742526cb7f06859e46804ab0e1",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/backgrounds_v20/c01_bg26.png",
+      "bytes": 2540920,
+      "sha256": "0297d2f4fbbf953fc6e8fd10fbb88c4490ec8aaeaf570ff9264f0fe7c3776ac5",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/backgrounds_v20/c01_bg28.png",
+      "bytes": 2316818,
+      "sha256": "a1e06d31cc566f59b25be9a7f3f58aaf864d0591fc53f973be61966f0d53fa58",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/backgrounds_v20/c01_bg29.png",
+      "bytes": 2487055,
+      "sha256": "5ceb5ea9dbdcd44150f003d4f9b4928fcaf6b6fbb1edbebd5ca8603bb6a38da7",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/backgrounds_v20/c01_departure.png",
+      "bytes": 2433666,
+      "sha256": "cb68ccfcfdf2d4d4eafea1a2d4109473b19b635f31d636283ecf8b4348061b12",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/backgrounds_v20/c01_dining.png",
+      "bytes": 2457674,
+      "sha256": "a4622e9299911efa0ec4032c640dc3401d71d901d77916dd2fe018945fcc23c4",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/backgrounds_v20/c01_gate.png",
+      "bytes": 2578898,
+      "sha256": "4749e3f99f3bc5ea07ef8108a9c6f8a06d909613890a5f5b34f326fb2acdb086",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/backgrounds_v20/c01_kitchen.png",
+      "bytes": 2246817,
+      "sha256": "ef562d538fb9a7777fc42316d5b76f3a1b8ea138867899373a25f8d2264be6bc",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/backgrounds_v20/c01_label_desk.png",
+      "bytes": 2425213,
+      "sha256": "7c5d8001ff2525affe55f5017f64091982e712b9fba8b1be906a0eaaebd9e21c",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/backgrounds_v20/c01_lane.png",
+      "bytes": 2674696,
+      "sha256": "e14c414af4ffa269ac2eeb95d31bc70af3cdf4357036f43df3f5293c4436bcc2",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/backgrounds_v20/c01_teahouse.png",
+      "bytes": 2702387,
+      "sha256": "869ee7d311e6a878de71f094278f8c2a0e4557bf1ff5ce0140a8a6171ae553bf",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/backgrounds_v20/c01_workbench.png",
+      "bytes": 2384459,
+      "sha256": "115136c4b8c8134428c294085d5d5b2f4c75ac56d1845f9e51b116060508bc75",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/events_v20/cg_c01_safe_connect.png",
+      "bytes": 2607018,
+      "sha256": "7347ac399d43bb79645cc82988c0bd1f3296562369effa04a290884d87be8052",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/events_v20/cg_ds01_hairclip_r2.png",
+      "bytes": 2272055,
+      "sha256": "c22fa1d025ff1b413597e870e830fe9292108cf887ca478ea8e89c5c797d79ca",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/events_v20/cg_ds01_rest_plan_r2.png",
+      "bytes": 2532986,
+      "sha256": "66e35ee9411333d1a9565e9bb8c19fc7e2df0d2462ad6b233568b8c8a62876d3",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/events_v20/cg_ds01_sort.png",
+      "bytes": 2495428,
+      "sha256": "c7957bb7e61eb3e77be59dbd0a624287fa4c97171af984a427750de0f72f22f9",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/events_v20/cg_ds02_dog_lid.png",
+      "bytes": 2902404,
+      "sha256": "71660460f44a64b2fb8dc6ca4ef02e0a758e62c636b21989989a06bb6fb0a5c6",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/events_v20/cg_ds02_license.png",
+      "bytes": 2565234,
+      "sha256": "fd00279c186a010c313db011ee092ac4a383ae9ffec6b9102410be33984599c2",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/op_frames/01.png",
+      "bytes": 2018849,
+      "sha256": "ba0683450247ce12a439ee15427cd93eeffdaec52644c1ccb8b80067a8ebc963",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/op_frames/02.png",
+      "bytes": 804107,
+      "sha256": "bf9584c460b56fad03d4ed0ebc72658e1f343e4949d8430d61e4d1797beeb7a6",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/op_frames/03.png",
+      "bytes": 1431621,
+      "sha256": "7806b9e736790e1f9eed1a940a47a35d9c092eeaba92bad5ea32347e35c780fe",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/op_frames/04.png",
+      "bytes": 1663330,
+      "sha256": "fea8a810f5b8cd6df3727ccc9b50b3e85349c4f7d4917a3f5fba2d0548bd237c",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/op_frames/05.png",
+      "bytes": 1575067,
+      "sha256": "8bba794030b4fd1d29ef5fe490940c437d42e837bbc44cef57893b1ca92d310b",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/op_frames/06.png",
+      "bytes": 1577398,
+      "sha256": "c79c821c8380a8fb7c95e3fa85c3da82bcc00076d05f7515f9873ef96011a83d",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/op_frames/07.png",
+      "bytes": 1965915,
+      "sha256": "ceb567fb5cd24a5af94f3d7d2df1afd1d2768a89a560e044dfa124065bce274f",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/op_frames/08.png",
+      "bytes": 1870909,
+      "sha256": "733e67b65219602ea67147554de8babf839b2c13b030963cb5dfc720080a13bf",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/op_frames/09.png",
+      "bytes": 2189248,
+      "sha256": "575131710f91ceeb06557593632ff4892812ced556fb19a0cd26ae2e313d58b2",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/op_frames/10.png",
+      "bytes": 2526704,
+      "sha256": "2c842cfe4b1653c60ad5fbc97db4b6c1729b7d911f2c150c5ed7053039a5eca2",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/op_frames/11.png",
+      "bytes": 2322464,
+      "sha256": "7adebc55aadad15151cbad316c0c25b0c4adcf48d7e3e6d293c341b9d6a30daf",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/op_frames/12.png",
+      "bytes": 2107329,
+      "sha256": "398f5b81e2cf78f88018260bc7f28349ccc65d0181ec7b1a1019b695e472d6d5",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/op_frames/13.png",
+      "bytes": 2192330,
+      "sha256": "e84b2de0d6cea1284117db20ccfee01c76685657438afa10ec5815f3185a8b29",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/op_frames/14.png",
+      "bytes": 2025888,
+      "sha256": "62a94530522ee10be33e97777de5f5ee3b99f3254aafbd8a56dd88ff30748c5f",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/op_frames/15.png",
+      "bytes": 2642399,
+      "sha256": "f638aef4cf2a0135a5db4d2733d06c211e178e8d6a5a6ff91435230469bab08f",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/op_frames/16.png",
+      "bytes": 2449211,
+      "sha256": "6a4dc3a684b97361ca9b2cf7391619561b7ac578b20c5576dc01bd3e042202da",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/op_frames/17.png",
+      "bytes": 1838750,
+      "sha256": "b00efe1715df2f06d92d9bfca8705543bbf6234a1a89db18f0c0a7643b0ea0e6",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/op_frames/18.png",
+      "bytes": 2093956,
+      "sha256": "a9e4ba2926af93bce30eccb10830dd64090e9058386c38dc014f036e3dd0a12e",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/op_frames/19.png",
+      "bytes": 2135203,
+      "sha256": "3dfdf86fecc4a0ac223562a5b93dcfab53cb29b09bc7177d87c1d3401223fea5",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/op_frames/20.png",
+      "bytes": 2004032,
+      "sha256": "403c067563f7f73e22644bdd9b1e3cfdf89b19c5efe31ab1e7da1a821d311d53",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/op_frames/21.png",
+      "bytes": 2314370,
+      "sha256": "9f85ab15b29de4c058b31eebcdca8da38bf0b8505e2ccded1e16e210d2013dfd",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/op_frames/22.png",
+      "bytes": 2183925,
+      "sha256": "2b526282b13316a568d607efad0caa31ffd48a2de4163e4475f37c8d6f327611",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/op_frames/23.png",
+      "bytes": 2567907,
+      "sha256": "5bf2f2a51b4f91fa0ac0fafb71302fb09a191e7b60dbd9641a820ba28fb3e313",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/op_frames/24.png",
+      "bytes": 1618576,
+      "sha256": "7e656c8434624793fa3c91d34efed93fb431bb234c7e60334f133b2e3c3a8389",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/op_frames/25.png",
+      "bytes": 2048012,
+      "sha256": "efd0cc7007037c45e4872a3550c12f15b9eb877420512eb8a9e2647767dfb8be",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/op_frames/26.png",
+      "bytes": 2097507,
+      "sha256": "96152c708a3587f8f24501e50e1e534911886c0bfd3f6d972ebcfad8ca51ec56",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/op_frames/27.png",
+      "bytes": 2297016,
+      "sha256": "8f89b282208d87a659808dcf21c6d858763165294aa430be2dfa888943250207",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/op_frames/28.png",
+      "bytes": 2264116,
+      "sha256": "eb788c184eb99799b080eb51cf39ce7efe7792e9aa68fecebabd34a8c2ec584d",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/op_frames/29.png",
+      "bytes": 2368976,
+      "sha256": "76e91525c0deec9ed0c8508314e76d052a3f0973245b094447301b078a8b5e6c",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/op_frames/30.png",
+      "bytes": 2174016,
+      "sha256": "349d342ddab4827af095bad2757066d92ce7716c37f5f09d18cbb18e53bc2af9",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/op_frames/31.png",
+      "bytes": 2407865,
+      "sha256": "a0cf68a5c76b4127d703167c7d40b2f03d7f0bd661140b5d934235fe60d98797",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/op_frames/32.png",
+      "bytes": 1891959,
+      "sha256": "383792860f3d45cc8461857fee5fa76a9790055d2c66c5e993574f58bdd01bc9",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/op_frames/33.png",
+      "bytes": 1998925,
+      "sha256": "aed32e853dc067458e2cd985f2f1b2bcc435fe0cb599da97714909e2946e8191",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/op_frames/34.png",
+      "bytes": 1855450,
+      "sha256": "053e15ec2b6070c5f11e779526bf1e0936c6ed1dcaef30e235f20983f8ee1111",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/bg_event_atelier_day.png",
+      "bytes": 1989661,
+      "sha256": "a8e8e966fe817ac7bbfdab1b73934476fbf6d54e83195395f4611a0885b74759",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/bg_event_bay_day.png",
+      "bytes": 2756750,
+      "sha256": "6162108f471c73bb0741ec2dcae332986247d94ce3d6c503b102891f164aa91c",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/bg_event_bus_shelter_day.png",
+      "bytes": 2681588,
+      "sha256": "c3499578cde2d923d00c825764eaff6768e4cb896e76a4156d5d3e75e7c025b4",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/bg_event_cafe_window_day.png",
+      "bytes": 2097799,
+      "sha256": "3c49775952f2abb4f1f4a7d8736d2e00807b3a86f328e42e9d5c34237a9eaffb",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/bg_event_cafe_window_dusk.png",
+      "bytes": 2010302,
+      "sha256": "c399de9ec913392c56599b10a3a1a3112b31d6e8ecec8d3647c838a44b5bd117",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/bg_event_courtyard_river_dusk.png",
+      "bytes": 2865780,
+      "sha256": "d4811b4dd4a2e9621221f0b95e0086fc56d08a8eb57ed27931da884521cafd61",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/bg_event_grass_slope_sunset.png",
+      "bytes": 2750977,
+      "sha256": "a4d4c04058f0fdb0ab00ef8e89f1b17c20f27842efd3cad957a79a8188fdd54f",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/bg_event_home_entry_night.png",
+      "bytes": 2028263,
+      "sha256": "a8670a4a9be337d9b4264720d5462fc29f4d80ecc6a552b42ceb13c03227dc3e",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/bg_event_home_studio_night.png",
+      "bytes": 1837548,
+      "sha256": "24f2e4e7d3f215b540fa96f42583808aae58245adf18dc7c0b6b968abcb09311",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/bg_event_kitchen_day.png",
+      "bytes": 1987641,
+      "sha256": "f2e17d1a52eb2cdffc75cfe5c7296c352fd088aa3c336b11ec5f73d232672ead",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/bg_event_market_street_night.png",
+      "bytes": 2424281,
+      "sha256": "99ba88db30c2b7ab46c448542a28dbcf2026c0a32cb6ce8a7ecc45eeda99635e",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/bg_event_pool_day.png",
+      "bytes": 2387678,
+      "sha256": "32ac1283f7397668f246aba2cec7aa7b363c430a15847c00ecdb81f73133880e",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/bg_event_roof_terrace_dusk.png",
+      "bytes": 2119091,
+      "sha256": "8d53d1e9a6ef17b6e41f72d63ba3c4b72b66b4853b78fedad9f88f43eac4636d",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/bg_event_shopfront_day.png",
+      "bytes": 2426787,
+      "sha256": "687e6fdb6e4a9027c2a1e7c1ae14f6e12ba711785fcd081ee07dbdb6b2be73d3",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/bg_event_stationery_day.png",
+      "bytes": 2302560,
+      "sha256": "df8d9c47a496bd0e2b8e787d8a4e2d54eeea4a94a78c9c9225cf8e7d90ef8f5d",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/bg_kimi_courtyard_night.png",
+      "bytes": 2827318,
+      "sha256": "fecccc9c5389c67385118085665e8438ba420cc3c246b852c86b2420c2d45368",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/bg_river_day.png",
+      "bytes": 2968209,
+      "sha256": "26cac5b6dbcd0e0cd90c5878389c60ccff7679477a990b26c618095ec1193de0",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/bg_town_map.png",
+      "bytes": 3111119,
+      "sha256": "c9756601c36d8e57f8812759eb87601f847171164f64fb509b335288afcf28ea",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_cart_repair.png",
+      "bytes": 2889305,
+      "sha256": "c4e37d760faf7b2e1fe6c11b4bdd3ec41a322e333667c724ebf836e3059edf8a",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_cart_repair_retry.png",
+      "bytes": 2498747,
+      "sha256": "0a78e53ac1c28dfa6fc82d02e61b71bcbeebc17fb92eb2f055110dd41514f645",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_cart_repair_vn.png",
+      "bytes": 2782109,
+      "sha256": "0b742d6c7e0d9090d97045be6fb2b23d30155b3c237f64a85690a1352bc98e6e",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_cart_repair_vn_clean.png",
+      "bytes": 2517459,
+      "sha256": "ad1b8f0ff407a10206d8895cdde41dac4d0cddad086d624013dc1c91ade44f83",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_claude_poster_hold.png",
+      "bytes": 2258527,
+      "sha256": "ade3c910b2daecd357978f42c6a308fca78cf4f4040ecf87b09230e4445bde8e",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_claude_poster_stop.png",
+      "bytes": 2152003,
+      "sha256": "b751654f30dc893ae3bce2ae05e3c1cca2d1c6bfe45e7cad01ec1b025a73f084",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_claude_river_confess.png",
+      "bytes": 2594091,
+      "sha256": "83dae0b0a189c00723399823a462cbbc2571b38f42c292b3973dfb4d49dde633",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_claude_river_relax.png",
+      "bytes": 2523525,
+      "sha256": "4e08503c5efb04f18ce58e9874378cacedd974aab4709a4a883837a022a896fa",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_claude_wet_book.png",
+      "bytes": 2335389,
+      "sha256": "2a3762decba31d97f8f38467bf82d2ef7f9c570d05fe62cf56e9f8003ec06de0",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_claude_wet_book_warn.png",
+      "bytes": 2289012,
+      "sha256": "4bba678912f848ab0cc710e616d1d8d642de2800f124c9fcedcc30abfc1363af",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_ds_birth.png",
+      "bytes": 2176692,
+      "sha256": "db63ff9a035a048085a88c4292e024e3119f784a4366052d6e8be6ae4f927078",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_ds_close.png",
+      "bytes": 2236025,
+      "sha256": "f517e91d328a7aa613a768812b2101103261b91e99b7968a4b5d04b276787129",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_ds_confession.png",
+      "bytes": 2341883,
+      "sha256": "be87330f060e82a61df0bb3bfb3e43a685282de23676f1e974adfaf0f34784cc",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_ds_cooldown.png",
+      "bytes": 2179119,
+      "sha256": "b6ef029fc07a1e689459f502274eb247e25583510219a131f3cd9202b5178713",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_ds_cooldown_exchange.png",
+      "bytes": 2142018,
+      "sha256": "1de59373951b2c2bc52e4bbefe35b7d02ef15ce395c072c24e6294df6bca164c",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_ds_evening_tea.png",
+      "bytes": 2052349,
+      "sha256": "f9a03480ed0660a3d392c5321d0241962c772d68b8dfd2ca81392de585539dc0",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_ds_family.png",
+      "bytes": 2116003,
+      "sha256": "89bf9da2c6cf08dcbb14704670fd1763a1073d13d76b20fb03312863759f2355",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_ds_hug_pov.png",
+      "bytes": 2187270,
+      "sha256": "e4c612fbc8e9375f5d3922d9588a37f43b918b6317c5fff3d8c2dbc97f76e27b",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_ds_other_hand.png",
+      "bytes": 2303473,
+      "sha256": "720c82772126a87000d1c974af01ef6f6a08ea2ea2af2f91b72c32391c32aa60",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_ds_outerwear.png",
+      "bytes": 1943512,
+      "sha256": "7024dbc28dd18b628f17788457272f36ad5eef82656981663a1ac5b142631ae8",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_ds_outerwear_turn.png",
+      "bytes": 1934411,
+      "sha256": "9e9687f96eab92802687466953ec5beaec52d838367b9d551115e0a5de35f8b9",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_ds_outerwear_worn.png",
+      "bytes": 2013140,
+      "sha256": "70e9508ae79b0b4b7872d829508f0385bbcf7c84ca739ea7bc353561be21474f",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_ds_pool.png",
+      "bytes": 2270379,
+      "sha256": "167043af21a25f247e993b18a5c8e16497b298423aed7ea30a81bc71a4a6e719",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_ds_rain.png",
+      "bytes": 2298467,
+      "sha256": "618a6d58c8cde37948648a7c2062448225808c893d6bd62cc4af964cd5205c42",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_ds_rest.png",
+      "bytes": 2588345,
+      "sha256": "113ad1a4f1eccd74f6aa396b804e801a529e2179d72164176262433f6c9a59cc",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_ds_rest_awake.png",
+      "bytes": 2532096,
+      "sha256": "b8ee4ba53b42bc7f2e8d0b804fb957fec098d2903ecb7d8f60437332629d0cf4",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_ds_tipsy_pounce.png",
+      "bytes": 2257938,
+      "sha256": "ebe8a52df7762aad3535433e53d481033f837e89e09cc908028e872c138cd03a",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_ds_tipsy_wait.png",
+      "bytes": 2186754,
+      "sha256": "d030ce77b9f978d9ed799e8f5a5a0578ce05d80ff2c21b0b6b14f373c2e5a990",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_ds_tragedy.png",
+      "bytes": 2440018,
+      "sha256": "5bd1019314f80b449f0faa1b91e64e7613ab659dd7603f78c41455657dc35e98",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_ds_tragedy_hand.png",
+      "bytes": 2358714,
+      "sha256": "00e3450e72de2414d6d35a0e9ab378daf5062e3aedb0499f97d6b80ae9a80b02",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_ds_tragedy_meal.png",
+      "bytes": 2051961,
+      "sha256": "b5bf1e4a91c626b9a7de9edbf08f0d83d8d98a073a445dd2dd8681bc1b1ab2dc",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_ds_tragedy_seat.png",
+      "bytes": 2223952,
+      "sha256": "b32622b847e7f4e32da31180d19390e5f5cb63a7ffaa2aa02cd9277035b96dc5",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_ds_wedding.png",
+      "bytes": 2497653,
+      "sha256": "3baaa25e49630ea76bdaed7fcdba9f79947ce20f90a5dad694e4bcc82d7c50ac",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_ds_yukata.png",
+      "bytes": 2108431,
+      "sha256": "cc4426d8838ddbee1e9ea08e55ae37d09bb4fe59ee700df76d722da89a258bbd",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_claude_ending.png",
+      "bytes": 2153892,
+      "sha256": "afedb9c2408b928bccc5094900db1ce2744220ee149bf288a5b1896e313b9d91",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_claude_kiss.png",
+      "bytes": 2542214,
+      "sha256": "ccbba85f475ed0cc56b11d9a503f5cea3a3762eb1aa7fb9ab2f7f339f21ff26e",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_claude_mishap.png",
+      "bytes": 2437618,
+      "sha256": "ba51f2c9ed52543e36f75c76d1b0a524b23823a59fe4f0a75311478d18121607",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_claude_swim.png",
+      "bytes": 2287873,
+      "sha256": "3e80c812433ce760ba1605a45253d33493c29c01a0867e0e5ea028e5b5eddbf7",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_deepseek_01.png",
+      "bytes": 2800736,
+      "sha256": "327b00ffc164fd77a47c721e63e804b21f8f4f20cd61592fe2924725d69c0878",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_deepseek_ending.png",
+      "bytes": 1992745,
+      "sha256": "d87a3398787ea786c30a23491ba89c1328b8a5d9d4cff7bcc27c883c50f8fd82",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_deepseek_kiss.png",
+      "bytes": 2153718,
+      "sha256": "a71b3bfa41b3daafaef19990f84a84a45fa0459f29c67b6f6ca7dd38c2e3b894",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_deepseek_mishap.png",
+      "bytes": 2091153,
+      "sha256": "0ef3241017add899086622dd57501d28453955d76bfa694eb8631bc3a002a69c",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_deepseek_mishap_blink.png",
+      "bytes": 2110815,
+      "sha256": "f3f0c9fdc07bdf16553aa828feaf5d21aa4e228046758973cac0352d3b808059",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_deepseek_swim.png",
+      "bytes": 2185793,
+      "sha256": "ee8940a7a73e2d2c903afdc298b8378af2e345058b8ec5b5a2fec5a01a79c276",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_gemini_ending.png",
+      "bytes": 2119379,
+      "sha256": "2921147586fa9d744aa6282f4e23219cfb03c396dca787d4e2893d810acb154d",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_gemini_kiss.png",
+      "bytes": 2236782,
+      "sha256": "3f35000fc567e599d467f6fde432c014b576cbb41bf68e14c3e9fac60b2498ae",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_gemini_mishap.png",
+      "bytes": 2292645,
+      "sha256": "8a6eda15e609b9139e727766801b5b9d4b52287d6f13721bf1d54e3a7370c486",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_gemini_swim.png",
+      "bytes": 2403896,
+      "sha256": "d9a642c271e053041d8c14f524a22b067353d363a7f46524d7c90d328a86d12b",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_glm_ending.png",
+      "bytes": 2082925,
+      "sha256": "078643ebe76213d4a8be40619e4457ae3ec07bdb92d89225d3ef98dd8f8f89d5",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_glm_kiss.png",
+      "bytes": 2490986,
+      "sha256": "603665a4f4c2171fae650b07fc8831a8f3f34ef8022d6d24266a4881bbe457be",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_glm_mishap.png",
+      "bytes": 2495369,
+      "sha256": "9be56bfa167e8e2b7b208c776c96462568ca68b8acbf8df89e639c717a1672b1",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_glm_swim.png",
+      "bytes": 2349023,
+      "sha256": "20a15dca4da2c2e090a1c5c98e325c13cbb7b944ec308e237983d4f95a5a7e2c",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_gpt_ending.png",
+      "bytes": 2057235,
+      "sha256": "c83e99a1abbcc199ccc7e593ef0050cb439c8362a12f1cf653b6f6a7cec8474c",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_gpt_kiss.png",
+      "bytes": 2254287,
+      "sha256": "d95582f7402c1903b7e187e3083a0ef861382b563912450089c35fcecf7a7254",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_gpt_mishap.png",
+      "bytes": 2369845,
+      "sha256": "90ac9b9905ef697ac7589c1c9776a6123a5b4731d4dca720c486bb346e7c8e59",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_gpt_swim.png",
+      "bytes": 2320660,
+      "sha256": "b003cfc70ce8a5870b387bdfa5701378b5ddfe9de4e808e689c12b3af8831eb4",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_grok_ending.png",
+      "bytes": 2123946,
+      "sha256": "7a9ec6819d6985a65f327fba335cc9c3250a80e4e0a4fcfd22ee872f6ebaa157",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_grok_kiss.png",
+      "bytes": 2471060,
+      "sha256": "94f925543c29b09aee7d251a0a9d386d289e5ab83c370a1a9755c6b258c9c062",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_grok_mishap.png",
+      "bytes": 2380600,
+      "sha256": "ce80fc02cba616bc66b734b546cc5234ea89aa6a7d79d4c61ac7ca2a62544ed9",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_grok_swim.png",
+      "bytes": 2449776,
+      "sha256": "2d443576310051f2b26051d4b5165f1313a3c6e317dbdfb4eae2030ef00e095c",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_kimi_ending.png",
+      "bytes": 2162622,
+      "sha256": "ba5a719883edeffc699f2da48c2e0eb674c1c976a9629a9b33216102417b8cb6",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_kimi_kiss.png",
+      "bytes": 2429635,
+      "sha256": "18693803d94c13dcd834682c377fc2ce17729b99a45836060ed057ff4d31b28e",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_kimi_mishap.png",
+      "bytes": 2363007,
+      "sha256": "1afebd3ad9fa9348bf719703fb42d84a01b650e001ee488498fc9c5c71b492a6",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_kimi_swim.png",
+      "bytes": 2475625,
+      "sha256": "1b1c54570d0d0e70e2f132bccb78a35630e460e6074e2ab2e9628b53bab9bb94",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_minimax_ending.png",
+      "bytes": 2049537,
+      "sha256": "c4d322f8b8f678b29ac98a8ae72150b41710d2fbfa34e63e296aed65bd64c1e8",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_minimax_kiss.png",
+      "bytes": 2287851,
+      "sha256": "674fa4c5aa083ca57960a07e60037f2fb00fd87aaebf324e306ac69d601e3bc5",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_minimax_mishap.png",
+      "bytes": 2381014,
+      "sha256": "dba5571c529a10a6f613eb53828439f167c27713812a3d89f6bb856af932e5f2",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_minimax_swim.png",
+      "bytes": 2363920,
+      "sha256": "d64e6dea2af8b03b6eb997295f35c8eb2bf4ef4a41f7fd85a392cf144a062fbc",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_opencode_ending.png",
+      "bytes": 1830834,
+      "sha256": "97beb0fe234e547363c95756f72177bdd9c000d859714376e4eea012b4e37c2e",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_opencode_kiss.png",
+      "bytes": 2056537,
+      "sha256": "b3205a2e504e16f049e5fbfe87753c4a6c752780d66c0cdfceeed82f5c08bac4",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_opencode_mishap.png",
+      "bytes": 2125033,
+      "sha256": "b6bc85727537acf402b02bd60f6d5b7176822e6571bbe2e7846b4b8a111eec48",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_opencode_swim.png",
+      "bytes": 2288849,
+      "sha256": "9c471380472d6a24da8b13c75b7617de06d2421e864c34f29bfc0c01f9238e1b",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_qwen_ending.png",
+      "bytes": 2033293,
+      "sha256": "3d8f2bedb3bc701f7c01558df12373301336ab59e40e2845b6a06273262ec197",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_qwen_kiss.png",
+      "bytes": 2394154,
+      "sha256": "06c2ca582e8071e8e3d94082f7c811b1c960ca362fff2ff8f586524863470758",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_qwen_mishap.png",
+      "bytes": 2339636,
+      "sha256": "08824612096fa727e10b4ade846ee4c061aff89c71518ad6d7784d2152063dcf",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_qwen_swim.png",
+      "bytes": 2415037,
+      "sha256": "9cb7d1436fdceb5e793a79644eee01c35d36eb8d1f094d1c3f6d8ee06cb2fc59",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_zcode_ending.png",
+      "bytes": 2122310,
+      "sha256": "e4847d68bbc19562d9c80a4244c52893494fd3f3cd93e10ec94d7926a9d211b1",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_zcode_kiss.png",
+      "bytes": 2176161,
+      "sha256": "0d330e26fb7294515fc5773a936016190ff232bb8aa44812b8c3d09a7bd0da69",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_zcode_mishap.png",
+      "bytes": 2132039,
+      "sha256": "ad00a86f589e67ea5f30e936c58af2fc9dc61bf5f295b00d138d03f200e9be61",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_fan_zcode_swim.png",
+      "bytes": 2210586,
+      "sha256": "5341d2a9f4b8bc6daa6d432111aff3fd22f0d81096e1b7bf4a9ebb5ab7ca4e64",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_garden_chart.png",
+      "bytes": 2754633,
+      "sha256": "e0f10bccc9a345812460ee1dd4454564ef23fcc2b211d12416c3c931400c9906",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_garden_chart_support.png",
+      "bytes": 2268957,
+      "sha256": "117633706970402eca0945a04da41442bea291022f426082b1208a8b1ca3a053",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_garden_chart_turn.png",
+      "bytes": 2183544,
+      "sha256": "99d28e7c6c9f14d06a612cd3f40609fc3fe1daff10b4c85bf7b45c7674674099",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_garden_chart_vn.png",
+      "bytes": 2342015,
+      "sha256": "b528dadafce2829cdaa173a6931996657507efbf7e16abb79f835c3b413f4a8e",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_garden_chart_vn_candidate.png",
+      "bytes": 2674848,
+      "sha256": "aac570260b69381beb1e52f159f36550d235bbae10f00795ad69af314fa67457",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_gpt_self_laugh.png",
+      "bytes": 2442200,
+      "sha256": "d574f744b9fd30df448439c7b044ed5dabf3f5d5ce9a293cac379774e7886f57",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_gpt_self_quiet.png",
+      "bytes": 2415393,
+      "sha256": "6c3351ac3dcadc1c683c1bf7b8d4838a8b773b4ca3fa7c824642f5451f605197",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_gpt_shared_drawing.png",
+      "bytes": 2504254,
+      "sha256": "5753aea0cc55b3a76b4804828b8f1d897a6f35da77e8539252692ee88c2f033a",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_grok_after_close.png",
+      "bytes": 2325741,
+      "sha256": "2353e0a72c0926ea878b50c002b1e0e3b81aa9998a50050bb133ddc72bcdca02",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_kimi_moon_lean.png",
+      "bytes": 2604000,
+      "sha256": "e5deb08f7527b47ec0324b0e76492851c3b01dbf4d293f718f85a1f8003bf7dc",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_kimi_moon_offer.png",
+      "bytes": 2722313,
+      "sha256": "cf5eb58a78a2a8f6e1677cbaea4423ef9f7f9d6e0eb86125ed6fe9397a073788",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_kimi_notebook_press.png",
+      "bytes": 2756048,
+      "sha256": "467bbd572b0f7301d99a98b9116f3936621dae3f03b8d42eca2fbcd611265f8b",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_kimi_private_map.png",
+      "bytes": 2556965,
+      "sha256": "94966cd53dae2bdb430e5641131761d27bab6ca0425d01ecd7e94eaec8369e31",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_kimi_private_map_offer.png",
+      "bytes": 2516370,
+      "sha256": "e823647128fc17a3010d76f9720dadb149bf3063c1a52d5f569aa9381db728e7",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_kimi_wish_reclaim.png",
+      "bytes": 2642274,
+      "sha256": "65c5ef77044bdd5235876a7215af450e86f65bf7033bd08ab8826c9af0d64c3f",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_minimax_take.png",
+      "bytes": 2593409,
+      "sha256": "ec3fc4e4f059af9b2c1ccc5ae41d9adad5ccef08e6be6b266dd96837b88eb93f",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_minimax_take_lookback.png",
+      "bytes": 2446767,
+      "sha256": "6fa4087db114342a6ca9131cefe3814a7442b5096e0acc0026010d46b64e47f1",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_minimax_take_vn.png",
+      "bytes": 2472563,
+      "sha256": "39f3e0b4826a8381bce82daa38880419513287bfd9a0046368bcefe4d73ecbf4",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_opening_ds_first_bowl.png",
+      "bytes": 2889829,
+      "sha256": "08fa8cac10455ae202cd0e3d83ef8fb8500f8cfe977d3c8ae63eac39c9ee06b5",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_opening_ds_rice_offer.png",
+      "bytes": 2219175,
+      "sha256": "faf12121edbdb11d524531df077d8833c9bacce6727d14d84dee2e923cb91a5a",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/cg_rice_break_caught.png",
+      "bytes": 2295855,
+      "sha256": "75d4f6d5480ea4690035245ca4b2a2b1a135c30c5f109a2b54c3bd81619ad069",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/echo_shrine.png",
+      "bytes": 3052943,
+      "sha256": "28ad80020570728dc9fef4fa3a497de9ea3eedfe82fbd63d11d46e8dba85955a",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/echo_shrine_morning.png",
+      "bytes": 3140472,
+      "sha256": "ebca030235454a61bab1b2656354c245a6586568c652f74a5cac524fe0b4915b",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/echo_shrine_rain.png",
+      "bytes": 3009642,
+      "sha256": "ca8dd29bea674da54cd0464b9bb6dc7ca10514acc8e010746b55e90cf719e782",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/original/rice_break.png",
+      "bytes": 2296443,
+      "sha256": "2e930dc71375f73c7ee601d8c693dcf995ca4168a3e2045b43b8203b4b69b411",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/portraits/chibi.png",
+      "bytes": 1862680,
+      "sha256": "f124b08f6b5311f05d09e7f23dbb92825f2b9e10cea3fe63f182682a66f24b0f",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/portraits/claude.png",
+      "bytes": 1755562,
+      "sha256": "21ff3fa22732d17187deff08a2289625611bc5bbca5480ccfe4d3f29e779e4c1",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/portraits/deepseek.png",
+      "bytes": 1909321,
+      "sha256": "f49841a6b2b60bcf3d4df66dd18eb69f894177f667f97071aed2eb6b72853c6e",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/portraits/gemini.png",
+      "bytes": 1863756,
+      "sha256": "154f5bef113cfd64e3af798b45604c88d2685608f01a1e1bddde09cb63098abf",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/portraits/glm.png",
+      "bytes": 1903231,
+      "sha256": "adbaaeda99ed64d9df0778fc7791f8417cd6cae541fb63f91a476401877e8d9b",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/portraits/gpt.png",
+      "bytes": 1802016,
+      "sha256": "f3bb1712c0f493b3b0863d97e9bdb1c6979b63aa88b7daa9a695e7ce23ddad1f",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/portraits/grok.png",
+      "bytes": 1879031,
+      "sha256": "f97d7dd23e3da3177bc2ef8f3ca63bdef40b0fa46a259e8065f8b1263daaac88",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/portraits/kimi.png",
+      "bytes": 1987122,
+      "sha256": "30e273ff41b8f57a91fbe93b133a75039f1d1eb491fe8b12d5cd812f6d894e12",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/portraits/minimax.png",
+      "bytes": 1742675,
+      "sha256": "c3a6253ca11f6a4db8ade00d65a63b9e33d8ca837cc617f4945db6ada29c0281",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/portraits/opencode.png",
+      "bytes": 1754547,
+      "sha256": "374b93b4cf57299985bfd7eea5efc535bae14763189898424432b5fdaf6f720c",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/portraits/qwen.png",
+      "bytes": 1960613,
+      "sha256": "799d0380530f9cdd22018838e06322ebf85fbd051a4cce66cebf6053934ad758",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/portraits/zcode.png",
+      "bytes": 1495485,
+      "sha256": "b4a230a5cac4692b739fd40041d61592cc78cfaa6fe7edbb0e379df936e9bc3e",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/sprites/claude_neutral.png",
+      "bytes": 1814065,
+      "sha256": "f6b971d3913ebeaab7f3916a56292477bc77305ef839990674283f5ac273e787",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/sprites/deepseek_annoyed.png",
+      "bytes": 1553298,
+      "sha256": "11c0dc7ecf41f7532678dfdf9b369260e00bdb6a699a53fadef08cca25a79675",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/sprites/deepseek_caught_turn.png",
+      "bytes": 1468412,
+      "sha256": "da6563b968ed7b0f893ef3a5d1f031299e5bbc267d99881039c8f4a19a6c0365",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/sprites/deepseek_determined.png",
+      "bytes": 1547553,
+      "sha256": "1e1807bca598e7f4c5a6ac22b7d38fdd6c6345215f0d292521107e438039684a",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/sprites/deepseek_fix_lamp.png",
+      "bytes": 1614886,
+      "sha256": "6be12abb97cbf131c38756b65e9d3c64a736c22fd187b913f37e54cb442bcfb1",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/sprites/deepseek_happy.png",
+      "bytes": 1540710,
+      "sha256": "72a80164667d0464f728ce09b446b0f075dc252d8fe91dee7354dc07faa56b0f",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/sprites/deepseek_neutral.png",
+      "bytes": 1529171,
+      "sha256": "59dc12374e93c5af384897cb239ee016b8e39edc19976ad179da292cd13c59c8",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/sprites/deepseek_offer_rice.png",
+      "bytes": 1623292,
+      "sha256": "5491f8faa5d90e8bd7b7a566020855a62413e6277dc3c4b58f0e8d5d958e9338",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/sprites/deepseek_rice.png",
+      "bytes": 1561546,
+      "sha256": "1f01528685d0f46f177fbe5e3e3a32d55062f289232eaf2ef5eddadc74d9e279",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/sprites/deepseek_rice_proud.png",
+      "bytes": 1638592,
+      "sha256": "83cf8f5b68bca3930e8d0b2366165a6d0a76a3c906c5d1da19b642ed1472afd4",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/sprites/deepseek_shy.png",
+      "bytes": 1544163,
+      "sha256": "7516bea35f78439cc326d661073975339731f1d2314584ab36fbe718c623c594",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/sprites/deepseek_shy_wave.png",
+      "bytes": 1565018,
+      "sha256": "944ca85909e1ae7871f299c6292e8ab455165a8898c686f220555ad3d94759d8",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/sprites/deepseek_sleepy.png",
+      "bytes": 1541849,
+      "sha256": "523fde7f1e4696bd8178e20a50609f3ae8ec30e4eb95a90727f5258b0d0c75c6",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/sprites/deepseek_summer.png",
+      "bytes": 1846516,
+      "sha256": "43e7b679707ee5cd6fa51337771c809a7b7434523c640a4ff406304cb38714ae",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/sprites/deepseek_yukata.png",
+      "bytes": 1926343,
+      "sha256": "09afdd8e4a8fb266a5909596c6206020e993e02300e4fc5e5fb389eb425e9754",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/sprites/gemini_neutral.png",
+      "bytes": 1577462,
+      "sha256": "76293029d9cc3e237681bb1c95926f023ec0e7a4761fdb47861f33976f191dc3",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/sprites/glm_neutral.png",
+      "bytes": 1658457,
+      "sha256": "cc61aa1e834f9a37a576ed2b2f132acf88e5ecabed3884ec452294aca73f4c35",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/sprites/gpt_neutral.png",
+      "bytes": 1745706,
+      "sha256": "d1a6628112daba114af2f6b2cf4058144892de2e5cc7e025480560ee3d6eb0db",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/sprites/grok_neutral.png",
+      "bytes": 1888544,
+      "sha256": "73f4bc8533b9167bdc26242d96c601b3aa67c49e388aaf96add56880edf722e0",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/sprites/kimi_neutral.png",
+      "bytes": 1858190,
+      "sha256": "2500596eb009c9b22af5f039e978176698563ad9277a8bafbe92a447ff7c738e",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/sprites/minimax_camera_shy.png",
+      "bytes": 1179565,
+      "sha256": "4f3f601252092d8815550e2770bf894dfa6ea18726f6c1189b33065d6ff40d61",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/sprites/minimax_neutral.png",
+      "bytes": 1301206,
+      "sha256": "412c57bb24bf885e674c8aa5f24835526be59a0cb57e4b8e397e7d007f489c09",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/sprites/opencode_neutral.png",
+      "bytes": 1438796,
+      "sha256": "5b5f0873c9d640325814781b75624ed4b2be113eca7ddadc7413d9053adeeb1b",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/sprites/qwen_neutral.png",
+      "bytes": 1815102,
+      "sha256": "63da400f3d7dafa56fab5d11e6f95d7e6ecda065c60fc76d409b94437bcae5fe",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/sprites/zcode_neutral.png",
+      "bytes": 1435218,
+      "sha256": "9c9e70e595d191839de97c53705d4d74fb1a6b488f5dbfed1ca9c26e1012492b",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/ui/deepseek_chibi_pet.png",
+      "bytes": 1405325,
+      "sha256": "7efefbe37972d55bb49f17594e2dbd67505500555c4f59702932e54a3a851ae8",
+      "included_in_public_code": false
+    },
+    {
+      "path": "images/ui/window_icon.png",
+      "bytes": 296323,
+      "sha256": "47635313c18fe13dda1434a5a98988e2ca9eeb2ac223904ecf58662b25370bee",
+      "included_in_public_code": false
+    },
+    {
+      "path": "audio/festival.ogg",
+      "bytes": 2209325,
+      "sha256": "4e807a11bf156cd3fded73995c99e7ab9d87422c61c4cbc6601418d1dc6aebbe",
+      "included_in_public_code": false
+    },
+    {
+      "path": "audio/licensed/hyy_clear_rain.mp3",
+      "bytes": 3740123,
+      "sha256": "0cde2a0925653c31d0c9c7ba71a98200e70702dee4fc3c280373b082227f888d",
+      "included_in_public_code": false
+    },
+    {
+      "path": "audio/licensed/hyy_clouds.mp3",
+      "bytes": 3603243,
+      "sha256": "dc287bb142dbf17acdb59cfecd543717ba255e2e1f63f8136f31b0a096288b4d",
+      "included_in_public_code": false
+    },
+    {
+      "path": "audio/licensed/hyy_far_smile.mp3",
+      "bytes": 5435994,
+      "sha256": "59a0964bfe43a3767722ba07ebb37555d35238c56e95454d05a2689a0fe77022",
+      "included_in_public_code": false
+    },
+    {
+      "path": "audio/licensed/hyy_mei.mp3",
+      "bytes": 3083472,
+      "sha256": "1404a4237d9940105b05b306b5a55e877c7915af6cfc7297cf2d030ebe57f9c9",
+      "included_in_public_code": false
+    },
+    {
+      "path": "audio/licensed/hyy_moment.mp3",
+      "bytes": 3012876,
+      "sha256": "8df74d0fee1ff9faa3cbd7bd74557128933f0237571138574591de2b5813cd3a",
+      "included_in_public_code": false
+    },
+    {
+      "path": "audio/licensed/hyy_wafuu.mp3",
+      "bytes": 4883243,
+      "sha256": "c41cf4fb78b3b3e6d50727f0f962cdfc77be934eecdd3ba783cee4129b0ca8c2",
+      "included_in_public_code": false
+    },
+    {
+      "path": "audio/licensed/km_bittersweet.mp3",
+      "bytes": 6468058,
+      "sha256": "3e12763e7e1955e6017ae7195df2ab7bd5a4faca9a4147eeb81d28d7aa94e5d1",
+      "included_in_public_code": false
+    },
+    {
+      "path": "audio/licensed/km_carefree.mp3",
+      "bytes": 6566713,
+      "sha256": "8433b770a630d9b1594fd484442c677907ece899a4d149954cd2e74fd733e311",
+      "included_in_public_code": false
+    },
+    {
+      "path": "audio/licensed/km_dreamer.mp3",
+      "bytes": 6532428,
+      "sha256": "615e65c9ca131c11f8e12970644ed74ef822ec4f643b1d9d0085a223600bcdfb",
+      "included_in_public_code": false
+    },
+    {
+      "path": "audio/licensed/km_spoons.mp3",
+      "bytes": 5967351,
+      "sha256": "ba8ea9fb20b692b0d4960bd5d0cacf5b41e8a9ed3d2514cbac96a01ef69e072e",
+      "included_in_public_code": false
+    },
+    {
+      "path": "video/opening.webm",
+      "bytes": 7197724,
+      "sha256": "06e954cb23a2daff9e1564d3021f02d17830e257c13d50b09f4bfbd649efa7c6",
+      "included_in_public_code": false
+    },
+    {
+      "path": "fonts/SourceHanSansCN-Regular.otf",
+      "bytes": 8429224,
+      "sha256": "e2bc8a2e7f37474b774fff8db758681ece40bb6947a90d571bce9dd60671a8e4",
+      "included_in_public_code": false
+    },
+    {
+      "path": "fonts/SourceHanSansLite.ttf",
+      "bytes": 2901056,
+      "sha256": "b2aaf73b7acc23d746b110f1caeaecc93d4292824979af44e96000200591b2a7",
+      "included_in_public_code": false
+    },
+    {
+      "path": "fonts/SourceHanSerifCN-SemiBold.otf",
+      "bytes": 11771824,
+      "sha256": "50d3f12201ce2dd840650b6bfa47ebb8572ecf767eec0e5ccb20a247b5bfa805",
+      "included_in_public_code": false
+    }
+  ]
+}
