@@ -109,13 +109,13 @@ init -6 python:
                 'claude':'窗边Claude','grok':'祭典Grok','hug':'花灯有回音',
                 'ds_rest':'河堤轮休','ds_rain':'廊下热饭','ds_confession':'鲸灯与明天',
                 'ds_cooldown':'再凉五分钟','ds_cooldown_exchange':'点心·交换','ds_yukata':'浴衣与真心话','ds_pool':'大肥鱼练泳','ds_close':'靠近一点',
-                'ds_outerwear_worn':'外衣·衣结','ds_outerwear':'外衣·解带','ds_outerwear_turn':'外衣·回头','ds_hug_pov':'接住大肥鱼','ds_evening_tea':'第二杯茶','gpt_self_laugh':'自画像·笑','gpt_self_quiet':'自画像·静','rice_break_caught':'偷饭·发现','ds_rest_awake':'午睡·醒来','fan_deepseek_01':'浅水同行','ds_wedding':'两只碗·婚礼','ds_family':'第三只小碗','minimax_take_lookback':'拍摄·回头','garden_chart_turn':'星图·转纸','garden_chart_support':'花盆·托稳','cart_repair_retry':'修车·拆回','claude_wet_book':'雨后护书','claude_wet_book_warn':'护书·提醒','kimi_private_map':'树影·添圈','kimi_private_map_offer':'树影·递笔','claude_poster_hold':'更正·压纸','claude_poster_stop':'更正·叫停','kimi_notebook_press':'愿签·收册','kimi_wish_reclaim':'愿签·取回'}[cg['id']]
+                'ds_outerwear_worn':'外衣·衣结','ds_outerwear':'外衣·解带','ds_outerwear_turn':'外衣·回头','ds_hug_pov':'接住大肥鱼','ds_evening_tea':'第二杯茶','gpt_self_laugh':'自画像·笑','gpt_self_quiet':'自画像·静','rice_break_caught':'偷饭·发现','ds_rest_awake':'午睡·醒来','fan_deepseek_01':'浅水同行','ds_wedding':'两只碗·婚礼','ds_family':'第三只小碗','minimax_take_lookback':'拍摄·回头','garden_chart_turn':'星图·转纸','garden_chart_support':'花盆·托稳','cart_repair_retry':'修车·拆回','claude_wet_book':'雨后护书','claude_wet_book_warn':'护书·提醒','kimi_private_map':'树影·添圈','kimi_private_map_offer':'树影·递笔','claude_poster_hold':'更正·压纸','claude_poster_stop':'更正·叫停','kimi_notebook_press':'愿签·收册','kimi_wish_reclaim':'愿签·取回'}.get(cg['id'], cg['title'])
 
     def original_cg_role(cg):
         key=cg['id']
-        if key.startswith('opening_'): return 'common'
+        if key.startswith(('opening_','v20_c')): return 'common'
         if key in ('minimax_take','minimax_take_lookback','garden_chart','garden_chart_turn','garden_chart_support','cart_repair','cart_repair_retry','rice_break','rice_break_caught'): return 'common'
-        if key.startswith(('ds_','fan_deepseek_')) or key in ('moon','hug'):return 'deepseek'
+        if key.startswith(('ds_','fan_deepseek_','v20_ds')) or key in ('moon','hug'):return 'deepseek'
         if key.startswith('gpt'):return 'gpt'
         if key.startswith('grok'):return 'grok'
         if key.startswith('claude_'):return 'claude'

@@ -141,30 +141,30 @@ label main_side_from(role, number=1):
     if side_role not in ('gpt','grok'):
         $ renpy.error('Unavailable authored route')
     if number == 1:
-        $ setattr(store, side_role+'_ending', '')
-        $ setattr(store, 'gpt7_reply' if side_role == 'gpt' else 'grok7_answer', '')
-    $ ending_begin_route(side_role,number)
-    $ side_route = next(r for r in LONG_ROUTES if r['id'] == side_role)
+        $ setattr(store, role+'_ending', '')
+        $ setattr(store, 'gpt7_reply' if role == 'gpt' else 'grok7_answer', '')
+    $ ending_begin_route(role,number)
+    $ side_route = ai_profile(role)
     $ side_cursor = number
     while side_cursor <= 8:
-        call expression side_role + '_ch%02d' % side_cursor
-        $ ending_visit_route_chapter(side_role,side_cursor)
-        $ main_last_chapter = side_role + '_ch%02d' % side_cursor
-        $ affection_award(side_role,main_last_chapter)
+        call expression side_route['id'] + '_ch%02d' % side_cursor
+        $ ending_visit_route_chapter(side_route['id'],side_cursor)
+        $ main_last_chapter = side_route['id'] + '_ch%02d' % side_cursor
+        $ affection_award(side_route['id'],main_last_chapter)
         $ renpy.save_persistent()
         if side_cursor < 8:
-            call mainline_finish_with_agent(side_role, side_route['name']+'篇', side_cursor, side_route['chapters'][side_cursor - 1]['title'], side_route['chapters'][side_cursor]['title'])
+            call mainline_finish_with_agent(side_route['id'], side_route['name']+'篇', side_cursor, side_route['chapters'][side_cursor - 1]['title'], side_route['chapters'][side_cursor]['title'])
             if _return != 'next':
                 return
         $ side_cursor += 1
-    $ side_reply = getattr(store,side_role+'8_ending')
-    if not getattr(store,side_role+'8_complete') or side_reply not in ('love','wait','friend'):
+    $ side_reply = getattr(store,side_route['id']+'8_ending')
+    if not getattr(store,side_route['id']+'8_complete') or side_reply not in ('love','wait','friend'):
         $ renpy.error('Authored route did not finish with a valid answer')
-    $ setattr(store,side_role+'_ending',side_reply)
-    $ setattr(persistent,'main_'+side_role+'_'+side_reply,True)
-    $ ending_record_complete_route(side_role,side_reply)
+    $ setattr(store,side_route['id']+'_ending',side_reply)
+    $ setattr(persistent,'main_'+side_route['id']+'_'+side_reply,True)
+    $ ending_record_complete_route(side_route['id'],side_reply)
     $ renpy.save_persistent()
-    call screen side_ending_card(side_role,side_reply)
+    call screen side_ending_card(side_route['id'],side_reply)
     return
 
 screen main_route_in_progress(name):

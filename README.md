@@ -8,13 +8,17 @@
 
 ## 免费 Android 预览版已发布
 
-前往 [v0.21 Android 预览版](https://github.com/870255475-del/sen-to-man-ken/releases/tag/v0.21.0-android-preview.1)，下载 **SenToManKen_v0.21_Android.apk**。安装后可运行，不需要另装Ren’Py SDK或Python。安装说明及SHA256校验文件在同一Release中。
+前往 [v0.21.1 Android 修复版](https://github.com/870255475-del/sen-to-man-ken/releases/tag/v0.21.1-android-preview.1)，下载 **SenToManKen_v0.21.1_Android.apk**。安装后可运行，不需要另装Ren’Py SDK或Python。安装说明及SHA256校验文件在同一Release中。
 
-APK为572,303,601字节，约545.8MiB；最低Android 5.0（API21），支持ARM32、ARM64及x86_64，需要OpenGL ES3。这是免费非商业分享的制作中预览版，尚未连接Android真机验证兼容性或FPS。
+APK为572,304,021字节，约545.8MiB；最低Android 5.0（API21），支持ARM32、ARM64及x86_64，需要OpenGL ES3。这是免费非商业分享的制作中预览版，尚未连接Android真机验证兼容性或FPS。
 
 截至2026-10-10，已有共通7章及鲸鱼娘/GPT/Grok/Claude/Kimi各8章正文；另外6条完整角色线仍在制作。基线安卓版v0.19有80项事件CG与17项动作收藏、13个隐藏结局和7个坏/遗憾短IF。此处保留基线统计，不把媒体文件数量当成新的CG总数。这些短IF不是八章长篇，首通5–6小时也未经过玩家计时。
 
 v0.21已新增独立泳池番外：约30秒动画、局部眨眼/轻微呼吸CG、两张独立出水艺术照和约3100字单次剧情、3处分支。完成鲸鱼娘恋人结局后，从标题→后日谈→「陪她歇一会儿」进入。不是完整Live2D。
+
+## 2026-10-24 安卓崩溃修复
+
+v0.21.1修复CG鉴赏标题/角色映射，并加固GPT/Grok章节返回时的路线状态。原图、剧情与泳池番外保留；支持相同签名覆盖升级，重要存档建议先备份。详细的复现、测试和旧档边界见 [热修说明](docs/HOTFIX_0.21.1.md)。网页版未在本次重新部署。
 
 ## 网页版已上线
 
