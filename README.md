@@ -1,12 +1,24 @@
 # 千to万ken / SenToManKen
 
+## 2026-11-07：豆包篇 v0.22 电脑与安卓预览版
+
+[下载 Windows ZIP 与 Android APK](https://github.com/870255475-del/sen-to-man-ken/releases/tag/v0.22.0-preview.1)。电脑包约527.2 MiB，安卓包约553.6 MiB；安装说明及SHA256校验随附。
+
+新增豆包独立篇：3章、6次选择、3种关系收束、3张事件CG和1张双人立绘。豆包采用经典3D短发形象，豆奶和豆包保留红围巾。这不是八章完整长线。安卓包已验证签名与包内容，尚未真机测试。
+
+网页更新已提交Toy审核，尚未确认新篇正式上线。[审核预览](https://www.bilibili.com/toy/preview/author_c9vEGNqT/index.html)。下面的正式入口保留。
+
+本次新内容随Release运行包提供，main运行源码仍是下述历史快照；未在本次同步全部新版运行源码。
+
+---
+
 ![千to万ken｜真实游戏主页，4:3展示图](docs/images/SenToManKen-poster-4x3.png)
 
 海报为本地v0.19真实主页截图的4:3展示版。人物设计来源与图片使用说明见 [海报署名](docs/POSTER_CREDITS.md)。本项目与相关AI品牌或原设计作者没有官方合作关系。
 
 原创成年 AI 娘恋爱喜剧，使用 Ren’Py 8.5.3。鲸鱼娘喜欢白米饭、会偷懒，也会在出事时把灯修好。角色的故事由预写剧情推进，可选 BYOK Agent 对话默认关闭。**仅限18岁以上。**
 
-## 免费 Android 预览版已发布
+## 历史 Android v0.21.1 修复版
 
 前往 [v0.21.1 Android 修复版](https://github.com/870255475-del/sen-to-man-ken/releases/tag/v0.21.1-android-preview.1)，下载 **SenToManKen_v0.21.1_Android.apk**。安装后可运行，不需要另装Ren’Py SDK或Python。安装说明及SHA256校验文件在同一Release中。
 
